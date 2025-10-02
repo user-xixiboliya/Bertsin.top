@@ -1,0 +1,63 @@
+@use 'valaxy-theme-sakura/styles/fonts.scss' as *;
+#tsparticles canvas {
+  z-index: -1 !important;
+}
+
+:root {
+  --sakura-pagination-bg: rgba(255, 255, 255, 0.8);   /* 分页按钮背景色（浅色） */
+  --sakura-pagination-text: #666;                     /* 分页按钮文字颜色 */
+  --sakura-pagination-hover-bg: #fe9500;              /* 悬停背景色 */
+  --sakura-pagination-hover-text: #fff;               /* 悬停文字颜色 */
+  --sakura-pagination-active-bg: #fe9500;             /* 当前页按钮背景色 */
+  --sakura-pagination-active-text: #fff;              /* 当前页按钮文字颜色 */
+  --sakura-pagination-margin: 20px 0;                 /* 分页与内容的间距 */
+}
+
+html.dark {
+  --sakura-pagination-bg: rgba(30, 30, 32, 0.8);      /* 分页按钮背景色（暗色） */
+  --sakura-pagination-text: #aaa;                     /* 分页按钮文字颜色（暗色） */
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  margin: var(--sakura-pagination-margin);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  flex: 1; 
+}
+
+.sakura-braced-text {
+  position: relative;
+  padding-inline: calc(1rem + 6px);
+  word-break: break-all;
+  hyphens: auto;
+
+  &::before {
+    content: '';
+    color: var(--sakura-color-primary);
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &::after {
+  content: '';
+    color: var(--sakura-color-primary);
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
