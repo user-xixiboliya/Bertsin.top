@@ -63,7 +63,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
     },
 
     notice: {
-      message: '<b>这是一个公告信息, 主题开源地址请见: <a href="https://github.com/WRXinYue/valaxy-theme-sakura">https://github.com/WRXinYue/valaxy-theme-sakura</a></br>',
+      message: '<b>本站采用valaxy+sakura theme的构建方式，访问<a href="https://github.com/WRXinYue/valaxy-theme-sakura">Valaxy-Sakura</a>获取更多信息。</br>',
     },
 
     pinnedPost: {
@@ -80,8 +80,9 @@ export default defineValaxyConfig<ThemeUserConfig>({
     },
 
     pagination: {
-      type:'standard',
+      type: 'standard',
       animation: true,
+      itemsPerPage: 10,
       infiniteScrollOptions: {
         preload: true,
       },

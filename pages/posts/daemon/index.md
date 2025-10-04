@@ -9,6 +9,7 @@ resources:
     title: "Image #:counter"
     params:
       byline: ""
+cover: https://upload-bbs.miyoushe.com/upload/2024/07/13/225492857/af8f2b802a4e7b6b1b9ecb1201f7f11c_2216729078109522029.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png
 ---
 
 > 本文内容有待完善。 

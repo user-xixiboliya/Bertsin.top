@@ -6,6 +6,7 @@ categories:
     - technology
 date: 2025-05-01T15:00:00-07:10
 lastmod: 2025-05-02T16:00:00-07:20
+cover: https://upload-bbs.miyoushe.com/upload/2025/01/18/289087756/12edfcc1b1caa1c38f32d65ad931b4e8_6695806414558017006.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png
 ---
 
 # 深度神经网络基础

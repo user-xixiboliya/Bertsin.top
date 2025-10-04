@@ -6,6 +6,7 @@ categories:
     - technology
 date: 2025-04-01T15:00:00-07:10
 lastmod: 2025-04-02T16:00:00-07:20
+cover: https://upload-bbs.miyoushe.com/upload/2024/07/13/225492857/215fb5090ba85e039ddd87fac2aae22d_2035061434093363082.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png
 ---
 # XJTU AI system Experiments 2025
 

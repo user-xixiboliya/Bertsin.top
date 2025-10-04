@@ -1,15 +1,13 @@
-
 ---
-title: '认知心理学复习纲要'
+title: 认知心理学复习纲要
 description: 一份难评的课的期末复习资料。
 draft: false
 math: true
 categories: 
     - CourseNote
-date: 2025-02-23T15:00:00-07:10
-lastmod: 2025-03-14T16:00:00-07:20
+date: 2025-07-23T15:00:00-07:10
+lastmod: 2025-08-14T16:00:00-07:20
 cover: https://upload-bbs.miyoushe.com/upload/2025/03/21/289087756/97d887d799d67579da10427573ff4ca7_6224929516410348176.jpg?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg
-
 ---
 >“出题极其阴险。给人留下很不好的印象。”
 
@@ -28,6 +26,7 @@ cover: https://upload-bbs.miyoushe.com/upload/2025/03/21/289087756/97d887d799d67
 
 # 认知心理学的研究范式
 ## 信息加工范式
+研究目的是确定认知操作的过程和结构，将外部信息转换为可操作的离散符号——心理表征 对信息的加工范式是序列(sequential)进行的 该模式可以回答自下而上的加工过程，却忽视了自上而下的加工过程。
 研究目的是确定认知操作的过程和结构，将外部信息转换为可操作的离散符号——心理表征 对信息的加工范式是序列(sequential)进行的 该模式可以回答自下而上的加工过程，却忽视了自上而下的加工过程。
 
 [信息加工的一般原理图]   感受器、效应器、信息加工系统

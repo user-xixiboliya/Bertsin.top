@@ -7,6 +7,7 @@ import Skills from '~/components/Home/skills.vue'
 import GithubCalendar from '~/components/Home/GithubCalendar.vue'
 import Statistics from '~/components/Home/Statistics.vue'
 import GithubStats from '~/components/Home/GithubStats.vue'
+import Post from '~/components/Home/Post.vue'
 
 const avatarLinks = [
   { text: 'China', icon: 'i-fa-map-marker' },
@@ -109,6 +110,10 @@ const statistics = [
         我是一名来自西安交通大学的人工智能专业的在读生，是 23 级。Feel free to reach out to me via email or GitHub!
       </p>
     </AboutMe>
+    <Post
+      title="Posts"
+      class="w-full max-w-5xl mx-auto mt-12"
+    />
     <Education
       title="Education"
       :education-list="educationList"

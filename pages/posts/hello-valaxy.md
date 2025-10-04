@@ -1,7 +1,7 @@
 ---
 title: Valaxy Markdown组件调用库
-date: 2022-04-01
-updated: 2022-04-01
+date: 2025-04-01
+updated: 2025-04-01
 cover: https://valaxy-theme-sakura.s3.bitiful.net/wallpaper-2025%2Fwallhaven-yxoejx.jpg
 categories: valaxy 
 description: 这篇博文展示了改网站一些在markdown中常用的插件。
