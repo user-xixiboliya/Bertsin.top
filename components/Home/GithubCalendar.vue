@@ -10,7 +10,7 @@ defineProps<{
     <div class="flex flex-1 flex-col gap-y-0">
       <div class="w-full overflow-x-auto min-h-32 py-4">
         <img 
-          :src="`https://ghchart.rshah.org/${color || '409ba5'}/${username}`" 
+          :src="`https://ghchart.rshah.org/${color || '00b300'}/${username}`" 
           :alt="`${username}'s GitHub Chart`"
           class="w-full h-auto rounded-lg dark:border-gray-600"
           loading="lazy"
@@ -27,7 +27,7 @@ defineProps<{
               class="text-gray-500 dark:text-gray-400 hover:text-primary transition-colors no-underline"
               target="_blank"
             >
-              Learn how we count contributions
+              Contributions in recent years
             </a>
           </div>
 

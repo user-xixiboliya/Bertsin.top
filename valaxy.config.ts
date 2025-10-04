@@ -39,7 +39,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
 
     //
     hero: {
-      title: 'HI, Bertsin!',
+      title: 'Bertsin\'s Blogs ',
       motto: 'You got to put the past behind you before you can move on.',
       urls: [
         'https://valaxy-theme-sakura.s3.bitiful.net/wallpaper-2025%2Fwallhaven-858k3j.jpg',
