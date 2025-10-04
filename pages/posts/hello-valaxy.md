@@ -23,7 +23,6 @@ Modify `valaxy.config.ts` to custom your blog.
 
 <TestPostMeta :frontmatter="frontmatter" />
 
-<Skills />
 
 ### 项目展示
 

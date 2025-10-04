@@ -5,7 +5,7 @@ import { addonMeting } from 'valaxy-addon-meting'
 import { addonWaline } from 'valaxy-addon-waline'
 // import { addonBackgrounds } from 'valaxy-addon-backgrounds'
 import { addonHitokoto } from 'valaxy-addon-hitokoto'
-import pkg from 'valaxy-theme-sakura/package.json'
+import { addonComponents, ValaxyThemesResolver } from 'valaxy-addon-components'
 
 export default defineValaxyConfig<ThemeUserConfig>({
   theme: 'sakura',
@@ -229,7 +229,6 @@ export default defineValaxyConfig<ThemeUserConfig>({
     scrollIndicator: true,
     scrollLock: false,
   },
-
   addons: [
     addonWaline({
       serverURL: 'https://waline.wrxinyue.org',
@@ -258,5 +257,6 @@ export default defineValaxyConfig<ThemeUserConfig>({
     addonHitokoto({
       api: 'intl',
     }),
+    addonComponents(),
   ],
 })

@@ -14,7 +14,7 @@ defineProps<{
 
 <template>
   <section class="flex flex-col gap-y-5 md:flex-row md:gap-y-0">
-    <div class="text-xl font-semibold md:min-w-36">
+    <div class="text-xl font-semibold md:min-w-44">
       <h2>{{ title }}</h2>
     </div>
     <div class="flex flex-1 flex-col gap-y-3">
@@ -25,7 +25,7 @@ defineProps<{
         :href="item.href"
         target="_blank"
       >
-        <div class="flex flex-col gap-y-1 border rounded-2xl px-5 py-0">
+        <div class="flex flex-col gap-y-1 border rounded-2xl px-8 py-0">
           <div class="flex flex-col gap-y-0.5">
             <h2 class="text-lg font-medium my-0">
               {{ item.title }}

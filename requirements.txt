@@ -1,1 +1,2 @@
 npm install @iconify/json
+pnpm add valaxy-addon-components

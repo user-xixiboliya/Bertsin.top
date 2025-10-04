@@ -3,6 +3,10 @@ import Avatar from '../components/Home/Avatar.vue'
 import AboutMe from '../components/Home/AboutMe.vue'
 import WebsiteList from '../components/Home/WebsiteList.vue'
 import Education from '../components/Home/Education.vue'
+import Skills from '~/components/Home/skills.vue'
+import GithubCalendar from '~/components/Home/GithubCalendar.vue'
+import Statistics from '~/components/Home/Statistics.vue'
+import GithubStats from '~/components/Home/GithubStats.vue'
 
 const avatarLinks = [
   { text: 'China', icon: 'i-fa-map-marker' },
@@ -46,6 +50,42 @@ const educationList = [
     date: '2023年9月 - 至今',
   },
 ]
+
+const skills = [
+  {
+    category: 'Languages',
+    items: ['Python', 'C++', 'C', 'Shell', 'TypeScript', 'Vue'],
+  },
+  {
+    category: 'AI Skills',
+    items: ['Pytorch', 'Isaac Sim', 'TensorFlow', 'HuggingFace'],
+  },
+  {
+    category: 'Tools & Infra',
+    items: ['Docker', 'Git', 'Linux', 'CUDA', 'Vim'],
+  },
+]
+
+const statistics = [
+  {
+    icon: 'i-fa-clock',
+    value: 476,
+    label: 'Days Online',
+    type: 'number'
+  },
+  {
+    icon: 'i-fa-calendar',
+    value: 'Oct 4, 2025',
+    label: 'Last Updated',
+    type: 'text'
+  },
+  {
+    icon: 'i-fa-file-text',
+    value: '33.4w',
+    label: 'Total Words',
+    type: 'number'
+  }
+]
 </script>
 
 <template>
@@ -79,8 +119,24 @@ const educationList = [
       :websites="websites"
       class="w-full max-w-5xl mx-auto mt-12"
     />
+    <Skills
+      title="Skills"
+      :skills="skills"
+      class="w-full max-w-5xl mx-auto mt-12"
+    />
+    <GithubStats
+      title="GitHub Stats"
+      username="user-xixiboliya"
+      class="w-full max-w-5xl mx-auto mt-12"
+    />
+    <GithubCalendar
+      username="user-xixiboliya"
+      color="1aff1a"
+      class="w-full max-w-5xl mx-auto mt-12"
+    />
 
   </div> 
+
 </template>
 
 

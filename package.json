@@ -13,8 +13,10 @@
   },
   "dependencies": {
     "@iconify/json": "^2.2.390",
+    "github-calendar": "^2.3.4",
     "valaxy": "0.26.6",
     "valaxy-addon-bangumi": "^0.2.2",
+    "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-meting": "^0.1.4",
     "valaxy-addon-waline": "^0.2.1",
     "valaxy-theme-antfu": "^0.1.0",

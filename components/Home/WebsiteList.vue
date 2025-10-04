@@ -19,7 +19,7 @@ defineProps<{
       <h2>{{ title }}</h2>
     </div>
     <div class="flex flex-1 flex-col gap-y-3">
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 py-2 px-5">  <!---->
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 py-2 pl-12 pr-1">  <!---->
         <a
           v-for="(item, index) in websites"
           :key="index"
