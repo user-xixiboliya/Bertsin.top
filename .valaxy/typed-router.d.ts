@@ -33,13 +33,14 @@ declare module 'vue-router/auto-routes' {
     '/posts/ai_system复习/': RouteRecordInfo<'/posts/ai_system复习/', '/posts/ai_system复习', Record<never, never>, Record<never, never>>,
     '/posts/AI概论/': RouteRecordInfo<'/posts/AI概论/', '/posts/AI概论', Record<never, never>, Record<never, never>>,
     '/posts/bomblab/': RouteRecordInfo<'/posts/bomblab/', '/posts/bomblab', Record<never, never>, Record<never, never>>,
-    '/posts/daemon小记/': RouteRecordInfo<'/posts/daemon小记/', '/posts/daemon小记', Record<never, never>, Record<never, never>>,
+    '/posts/daemon/': RouteRecordInfo<'/posts/daemon/', '/posts/daemon', Record<never, never>, Record<never, never>>,
     '/posts/Datalab/': RouteRecordInfo<'/posts/Datalab/', '/posts/Datalab', Record<never, never>, Record<never, never>>,
     '/posts/docker/': RouteRecordInfo<'/posts/docker/', '/posts/docker', Record<never, never>, Record<never, never>>,
     '/posts/Doxygen&commit/': RouteRecordInfo<'/posts/Doxygen&commit/', '/posts/Doxygen&commit', Record<never, never>, Record<never, never>>,
     '/posts/GitIntro/': RouteRecordInfo<'/posts/GitIntro/', '/posts/GitIntro', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
     '/posts/proxylab/': RouteRecordInfo<'/posts/proxylab/', '/posts/proxylab', Record<never, never>, Record<never, never>>,
+    '/posts/Psychology/': RouteRecordInfo<'/posts/Psychology/', '/posts/Psychology', Record<never, never>, Record<never, never>>,
     '/posts/ssh&remotessh/': RouteRecordInfo<'/posts/ssh&remotessh/', '/posts/ssh&remotessh', Record<never, never>, Record<never, never>>,
     '/posts/VPN_tutorial/': RouteRecordInfo<'/posts/VPN_tutorial/', '/posts/VPN_tutorial', Record<never, never>, Record<never, never>>,
     '/posts/人工智慧与现代物理I/': RouteRecordInfo<'/posts/人工智慧与现代物理I/', '/posts/人工智慧与现代物理I', Record<never, never>, Record<never, never>>,
@@ -49,7 +50,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/我的2024总结/': RouteRecordInfo<'/posts/我的2024总结/', '/posts/我的2024总结', Record<never, never>, Record<never, never>>,
     '/posts/斯多葛的具身治疗/': RouteRecordInfo<'/posts/斯多葛的具身治疗/', '/posts/斯多葛的具身治疗', Record<never, never>, Record<never, never>>,
     '/posts/置身事内/': RouteRecordInfo<'/posts/置身事内/', '/posts/置身事内', Record<never, never>, Record<never, never>>,
-    '/posts/认知心理学/': RouteRecordInfo<'/posts/认知心理学/', '/posts/认知心理学', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 
@@ -124,8 +124,8 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/bomblab/'
       views: never
     }
-    'pages/posts/daemon小记/index.md': {
-      routes: '/posts/daemon小记/'
+    'pages/posts/daemon/index.md': {
+      routes: '/posts/daemon/'
       views: never
     }
     'pages/posts/Datalab/index.md': {
@@ -150,6 +150,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/proxylab/index.md': {
       routes: '/posts/proxylab/'
+      views: never
+    }
+    'pages/posts/Psychology/index.md': {
+      routes: '/posts/Psychology/'
       views: never
     }
     'pages/posts/ssh&remotessh/index.md': {
@@ -186,10 +190,6 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/置身事内/index.md': {
       routes: '/posts/置身事内/'
-      views: never
-    }
-    'pages/posts/认知心理学/index.md': {
-      routes: '/posts/认知心理学/'
       views: never
     }
     'pages/tags/index.md': {
