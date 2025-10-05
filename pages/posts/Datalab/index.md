@@ -4,6 +4,7 @@ draft: false
 description: 本人关于CMU Datalab的答案。 
 date: 2024-11-22T11:00:00-07:00
 lastmod: 2024-12-20T11:00:00-04:00
+cover: https://upload-bbs.miyoushe.com/upload/2025/03/21/289087756/97d887d799d67579da10427573ff4ca7_6224929516410348176.jpg?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg
 ---
 
 ![](imgs/5ba35e59614ed6ae5dc3a4cfaac11f40.png)

@@ -23,9 +23,8 @@ declare module 'vue-router/auto-routes' {
     '/404': RouteRecordInfo<'/404', '/404', Record<never, never>, Record<never, never>>,
     '/about/': RouteRecordInfo<'/about/', '/about', Record<never, never>, Record<never, never>>,
     '/about/site': RouteRecordInfo<'/about/site', '/about/site', Record<never, never>, Record<never, never>>,
-    '/anime/': RouteRecordInfo<'/anime/', '/anime', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
-    '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
+    '/blogs/': RouteRecordInfo<'/blogs/', '/blogs', Record<never, never>, Record<never, never>>,
     '/comment/': RouteRecordInfo<'/comment/', '/comment', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
@@ -50,6 +49,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/我的2024总结/': RouteRecordInfo<'/posts/我的2024总结/', '/posts/我的2024总结', Record<never, never>, Record<never, never>>,
     '/posts/斯多葛的具身治疗/': RouteRecordInfo<'/posts/斯多葛的具身治疗/', '/posts/斯多葛的具身治疗', Record<never, never>, Record<never, never>>,
     '/posts/置身事内/': RouteRecordInfo<'/posts/置身事内/', '/posts/置身事内', Record<never, never>, Record<never, never>>,
+    '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 
@@ -84,16 +84,12 @@ declare module 'vue-router/auto-routes' {
       routes: '/about/site'
       views: never
     }
-    'pages/anime/index.md': {
-      routes: '/anime/'
-      views: never
-    }
     'pages/archives/index.md': {
       routes: '/archives/'
       views: never
     }
-    'pages/categories/index.md': {
-      routes: '/categories/'
+    'pages/blogs/index.md': {
+      routes: '/blogs/'
       views: never
     }
     'pages/comment/index.md': {
@@ -190,6 +186,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/置身事内/index.md': {
       routes: '/posts/置身事内/'
+      views: never
+    }
+    'pages/projects/index.md': {
+      routes: '/projects/'
       views: never
     }
     'pages/tags/index.md': {

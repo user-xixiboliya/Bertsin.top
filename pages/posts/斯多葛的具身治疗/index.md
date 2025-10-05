@@ -6,6 +6,7 @@ categories:
     - 通识
 date: 2024-06-23T15:00:00-07:10
 lastmod: 2024-06-25T16:00:00-07:20
+cover: https://upload-bbs.miyoushe.com/upload/2024/12/31/289087756/9a325f6147eeb767fb898bf2fe914d2c_2767468381675613988.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png
 ---
 # 【摘要】
 

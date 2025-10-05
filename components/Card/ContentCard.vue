@@ -84,51 +84,44 @@ defineProps<{
   background-color: var(--va-c-bg-soft);
   border-radius: 12px;
   overflow: hidden;
-  height: 150px;
+  min-height: 150px; /* 改为最小高度而不是固定高度 */
   position: relative;
 }
 
 /* 左侧内容区域 */
 .card-content {
-  padding: 8px 14px; /* 减小垂直内边距 */
+  padding: 12px 16px; /* 增加内边距 */
   display: flex;
   flex-direction: column;
   width: 60%;
   position: relative;
   z-index: 1;
-  overflow: hidden;
+  justify-content: space-between; /* 内容分布 */
 }
 
 .card-title {
   font-size: 1.05rem;
   font-weight: 600;
-  margin: 0 0 6px 0;
-  line-height: 1.2;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  flex-shrink: 0; /* 确保标题不被压缩 */
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+  flex-shrink: 0;
 }
 
 .card-description {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: var(--va-c-text-2);
   margin: 0;
-  line-height: 1.35;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  line-height: 1.4;
   word-wrap: break-word;
-  flex-grow: 1; /* 让描述区域占据所有可用空间 */
-  min-height: 0; /* 允许在空间不足时收缩 */
+  flex-grow: 1;
+  overflow-wrap: break-word; /* 确保长单词能够换行 */
+  hyphens: auto; /* 启用连字符换行 */
 }
 
 .card-footer {
-  flex-shrink: 0; /* 确保footer不被压缩 */
+  flex-shrink: 0;
   padding-top: 8px;
-  margin-top: auto; /* 将footer推到底部 */
+  margin-top: 8px;
   border-top: 1px solid var(--va-c-divider, rgba(60, 60, 60, 0.12));
 }
 
@@ -155,7 +148,7 @@ defineProps<{
   position: absolute;
   right: 0;
   top: 0;
-  height: 100%; /* 确保图片包装器填满卡片高度 */
+  height: 100%;
   width: 45%;
   z-index: 0;
 }
@@ -167,6 +160,31 @@ defineProps<{
   object-position: center;
   mask-image: linear-gradient(to left, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
   -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+}
+
+/* 响应式调整：小屏幕时改为纵向布局 */
+@media (max-width: 640px) {
+  .content-card {
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  .card-content {
+    width: 100%;
+    padding: 16px;
+  }
+  
+  .card-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    order: -1; /* 图片移到上方 */
+  }
+  
+  .card-image {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
 }
 
 /* 暗色模式下的样式调整 */

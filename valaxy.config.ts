@@ -13,7 +13,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
 
   themeConfig: {
     ui: {
-      primary: '#FF5252',
+      primary: '#FF5253',
       toggleDarkButton: {
         lightIcon: 'i-line-md-moon-alt-to-sunny-outline-loop-transition',
         darkIcon: 'i-line-md-sunny-outline-to-moon-loop-transition',
@@ -37,7 +37,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
     },
 
 
-    //
+    
     hero: {
       title: 'Bertsin\'s Blogs ',
       motto: 'You got to put the past behind you before you can move on.',
@@ -80,7 +80,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
     },
 
     pagination: {
-      type: 'standard',
+      type: 'infinite-scroll',
       animation: true,
       itemsPerPage: 10,
       infiniteScrollOptions: {
@@ -109,17 +109,17 @@ export default defineValaxyConfig<ThemeUserConfig>({
       {
         icon: 'i-line-md-folder-twotone',
         text: '博文',
-        link: '/categories',
+        link: '/blogs',
+      },
+      {
+        icon: 'i-fa-tags',
+        locale: '项目',
+        link: '/projects',
       },
       {
         icon: 'i-fa-archive',
         locale: 'menu.archives',
         link: '/archives',
-      },
-      {
-        icon: 'i-fa-film',
-        text: '番剧',
-        link: '/anime',
       },
       {
         icon: 'i-fa-edit',
@@ -189,10 +189,6 @@ export default defineValaxyConfig<ThemeUserConfig>({
         text: '🎯 清单',
         items: [
           {
-            text: '番剧 🍨',
-            link: '/anime',
-          },
-          {
             text: '游戏 🎮',
             link: '/game',
           },
@@ -214,7 +210,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
     ],
     sidebarOptions: {
       position: 'left',
-      enableOnDesktop: true,
+      enableOnDesktop: false,
     },
 
     tags: {
