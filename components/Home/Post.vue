@@ -67,7 +67,7 @@ const posts = computed(() => site.postList.slice(0, 8))
       </ul>
       <a
         class="group relative inline-flex w-fit items-center gap-x-2 self-end overflow-hidden rounded-lg border border-gray-300/50 bg-gradient-to-r from-gray-100/80 via-gray-50/60 to-gray-100/80 px-3 py-0 text-sm font-medium text-gray-500 no-underline transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/30 hover:bg-gradient-to-r hover:from-primary/10 hover:via-primary/5 hover:to-transparent hover:text-primary hover:shadow-md hover:shadow-primary/20 dark:border-gray-600/50 dark:from-gray-800/80 dark:via-gray-700/60 dark:to-gray-800/80 dark:text-gray-400"
-        href="/categories"
+        href="/blogs"
       >
         <div class="absolute inset-0 rounded-lg bg-gradient-to-r from-primary/0 via-primary/5 to-primary/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         <div class="relative flex items-center gap-x-">

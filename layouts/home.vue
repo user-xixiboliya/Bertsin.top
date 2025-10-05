@@ -103,7 +103,7 @@ const statistics = [
     <AboutMe
       title="About"
       more-link-text="More about me"
-      more-link-href="https://user-xixiboliya"
+      more-link-href="https://github.com/user-xixiboliya"
       class="w-full max-w-5xl mx-auto">
       <p>学生</p>
       <p>
