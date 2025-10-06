@@ -93,7 +93,7 @@ const statistics = [
       more-link-text="More about me"
       more-link-href="https://github.com/user-xixiboliya"
       class="w-full max-w-5xl mx-auto">
-      <p>学生</p>
+      <p>学生 / <span class="barbara-text">芭芭拉小姐！</span></p> 
       <p>
         我是一名来自西安交通大学的人工智能专业的在读生，是 23 级，也是全国机器人竞赛 ROBOCON (简称RC) 的坑友。Feel free to reach out to me via email or GitHub!
       </p>
@@ -131,5 +131,17 @@ const statistics = [
   </div> 
 
 </template>
+
+<style scoped>
+.barbara-text {
+  filter: blur(3px);
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+.barbara-text:hover {
+  filter: blur(0px);
+}
+</style>
 
 

@@ -19,7 +19,7 @@ Write your first post!
 
 ## Usage
 
-Modify `valaxy.config.ts` to custom your blog.
+Modify `valaxy.config.ts` to custom your blog[^1-zh] :100:.
 
 <TestPostMeta :frontmatter="frontmatter" />
 

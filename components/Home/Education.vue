@@ -27,9 +27,9 @@ defineProps<{
       >
         <div class="flex flex-col gap-y-1 border rounded-2xl px-8 py-0">
           <div class="flex flex-col gap-y-0.5">
-            <h2 class="text-lg font-medium my-0">
+            <h3 class="text-lg font-medium my-0">
               {{ item.title }}
-            </h2>
+            </h3>
             <p class="text-muted-foreground">
               {{ item.description }}
             </p>

@@ -149,6 +149,11 @@ export default defineValaxyConfig<ThemeUserConfig>({
         ],
       },
       {
+       text: ' 关于本站',
+       icon: 'i-fa-info-circle',
+       link: '/about',
+      },
+      {
         text: '曾经的家',
         icon: 'i-fa-leaf',
         link: 'https://user-xixiboliya.github.io/',
