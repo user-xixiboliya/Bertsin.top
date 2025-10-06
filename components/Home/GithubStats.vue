@@ -12,7 +12,6 @@ onMounted(() => {
   // 检查初始主题
   isDark.value = document.documentElement.classList.contains('dark')
 
-  // 监听主题变化
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutation) => {
       if (mutation.attributeName === 'class') {

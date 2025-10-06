@@ -7,7 +7,7 @@ defineProps<{
 }>()
 
 const site = useSiteStore()
-// Valaxy's postList is already sorted by date, so we just take the first 8.
+// Valaxy's postList is already sorted by dates 
 const posts = computed(() => site.postList.slice(0, 8))
 </script>
 

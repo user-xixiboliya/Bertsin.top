@@ -137,9 +137,14 @@ export default defineValaxyConfig<ThemeUserConfig>({
             link: 'https://github.com/user-xixiboliya',
           },
           {
-            text: 'Valaxy →',
+            text: 'Valaxy',
             icon: 'i-ri-cloud-fill',
             link: 'https://github.com/YunYouJun/valaxy',
+          },
+          {
+            text: 'Sakura',
+            icon: 'i-twemoji-blossom',
+            link: 'https://sakura.valaxy.site/',
           },
         ],
       },

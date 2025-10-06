@@ -35,71 +35,73 @@ const projects = [
 <template>
   <ProjectPage class="Projects">
     <div class="prose dark:prose-invert max-w-none mx-auto px-4 py-8">
-      <div id="content-header" class="animate mb-8">
-        <h1 class="text-2xl font-medium sm:mb-2 sm:text-3xl">
-          Projects
-        </h1>
-        <div class="text-sm text-muted-foreground italic" path="/projects">
-          <span class="waline-pageview-count" data-path="/projects">1638</span> views
-        </div>
-      </div>
-
-      <div class="mb-8">
-        <p>如果你觉得我做的项目还不错，可以赞助我，让我有动力继续做下去。</p>
-      </div>
-
-      <h2 id="projects" class="mb-6">Projects</h2>
-
-      <div class="projects-grid">
-        <ContentCard
-          v-for="project in projects"
-          :key="project.title"
-          :title="project.title"
-          :description="project.description"
-          :link="project.link"
-          :image="project.image"
-        />
-      </div>
-
-      <!-- Sponsor 部分 -->
-      <div class="sponsor-section mt-12">
-        <h1 class="text-2xl font-medium sm:mb-2 sm:text-3xl mb-6">
-          Sponsor
-        </h1>
-        
-        <div class="sponsor-content flex flex-col items-center">
-          <p class="mb-6 text-gray-600 dark:text-gray-400">
-            如果我的项目对你有帮助，欢迎通过微信支付或支付宝支持我的开发工作。
-          请在赞助后留言或主动联系我，可以被放入赞助人列表，祝你开心。
-          </p>
-          
-          <div class="payment-qr-container">
-            <div class="wechat-qr-wrapper">
-              <img 
-                src="../static/wechat.png" 
-                alt="微信支付二维码" 
-                class="qr-code"
-              />
-              <p class="text-center mt-3 text-sm text-gray-500">
-                微信扫码支付
-              </p>
-            </div>
-            
-            <div class="alipay-qr-wrapper">
-              <img 
-                src="../static/alipay.png" 
-                alt="支付宝支付二维码" 
-                class="qr-code"
-              />
-              <p class="text-center mt-3 text-sm text-gray-500">
-                支付宝扫码支付
-              </p>
-            </div>
+      <div class="max-w-3xl mx-auto">
+        <div id="content-header" class="animate mb-8">
+          <h1 class="text-2xl font-medium sm:mb-2 sm:text-3xl">
+            Projects
+          </h1>
+          <div class="text-sm text-muted-foreground italic" path="/projects">
+            <span class="waline-pageview-count" data-path="/projects">1638</span> views
           </div>
+        </div>
 
-          <div class="sponsor-list mt-8 w-full max-w-2xl">
-            <h3 class="text-lg font-semibold mb-4 text-center">赞助者列表</h3>
-            <Sponsor />
+        <div class="mb-8">
+          <p>如果你觉得我做的项目还不错，可以赞助我，让我有动力继续做下去。</p>
+        </div>
+
+        <h2 id="projects" class="mb-6">Project Lists</h2>
+
+        <div class="projects-grid">
+          <ContentCard
+            v-for="project in projects"
+            :key="project.title"
+            :title="project.title"
+            :description="project.description"
+            :link="project.link"
+            :image="project.image"
+          />
+        </div>
+
+        <!-- Sponsor 部分 -->
+        <div class="sponsor-section mt-12">
+          <h1 class="text-2xl font-medium sm:mb-2 sm:text-3xl mb-6">
+            Sponsor
+          </h1>
+          
+          <div class="sponsor-content flex flex-col items-center">
+            <p class="mb-6 text-gray-600 dark:text-gray-400">
+              如果我的项目对你有帮助，欢迎通过微信支付或支付宝支持我的开发工作。
+            请在赞助后留言或主动联系我，可以被放入赞助人列表，祝你开心。
+            </p>
+            
+            <div class="payment-qr-container">
+              <div class="wechat-qr-wrapper">
+                <img 
+                  src="../static/wechat.png" 
+                  alt="微信支付二维码" 
+                  class="qr-code"
+                />
+                <p class="text-center mt-3 text-sm text-gray-500">
+                  微信扫码支付
+                </p>
+              </div>
+              
+              <div class="alipay-qr-wrapper">
+                <img 
+                  src="../static/alipay.png" 
+                  alt="支付宝支付二维码" 
+                  class="qr-code"
+                />
+                <p class="text-center mt-3 text-sm text-gray-500">
+                  支付宝扫码支付
+                </p>
+              </div>
+            </div>
+
+            <div class="sponsor-list mt-8 w-full max-w-2xl">
+              <h3 class="text-lg font-semibold mb-4 text-center">赞助者列表</h3>
+              <Sponsor />
+            </div>
           </div>
         </div>
       </div>
@@ -120,9 +122,10 @@ const projects = [
   }
 }
 
+/* 确保在所有大屏幕尺寸下都保持2列布局 */
 @media (min-width: 1400px) {
   .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -160,7 +163,6 @@ const projects = [
 .wechat-qr-wrapper:hover,
 .alipay-qr-wrapper:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .qr-code {

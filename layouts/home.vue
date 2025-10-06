@@ -18,29 +18,17 @@ const avatarLinks = [
 
 const websites = [
   {
-    href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    imgSrc: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop',
-    title: 'Lorem ipsum',
-    description: 'dolor sit amet, oratio ornatus explicari pro ex',
+    href: 'https://xjturc.vercel.app/',
+    imgSrc: 'https://youke1.picui.cn/s1/2025/10/06/68e35ca18a03b.png',
+    title: 'XJTU ROBOCON tutorial',
+    description: 'XJTU ROBOCON 文档教程网站',
   },
   {
-    href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    imgSrc: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop',
-    title: 'Lorem ipsum',
-    description: 'dolor sit amet, oratio ornatus explicari pro ex',
-  },
-  {
-    href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    imgSrc: 'https://images.unsplash.com/photo-1544256718-3bcf237f3974?q=80&w=2071&auto=format&fit=crop',
-    title: 'Lorem ipsum',
-    description: 'dolor sit amet, oratio ornatus explicari pro ex',
-  },
-  {
-    href: '/projects',
-    imgSrc: 'https://images.unsplash.com/photo-1544256718-3bcf237f3974?q=80&w=2071&auto=format&fit=crop',
-    title: 'More projects',
-    description: 'Check out more projects',
-  },
+    href: 'https://github.com/user-xixiboliya/AI-system-HW',
+    imgSrc: 'https://youke1.picui.cn/s1/2025/10/06/68e36f557c83a.png',
+    title: 'AI system project',
+    description: 'AI system homework projects for 2025 XJTU AI system',
+  }
 ]
 
 const educationList = [
@@ -107,7 +95,7 @@ const statistics = [
       class="w-full max-w-5xl mx-auto">
       <p>学生</p>
       <p>
-        我是一名来自西安交通大学的人工智能专业的在读生，是 23 级。Feel free to reach out to me via email or GitHub!
+        我是一名来自西安交通大学的人工智能专业的在读生，是 23 级，也是全国机器人竞赛 ROBOCON (简称RC) 的坑友。Feel free to reach out to me via email or GitHub!
       </p>
     </AboutMe>
     <Post

@@ -1,16 +1,16 @@
 <template>
-  <div class="px-3 sm:px-4 py-2 rounded-xl sponsor-table-wrapper">
+  <div class="px-4 sm:px-6 py-3 rounded-xl sponsor-table-wrapper">
     <table class="my-0 w-full">
       <tbody>
         <tr class="text-start">
-          <th class="py-2 px-2 font-semibold">Name</th>
-          <th class="py-2 px-2 font-semibold">Amount</th>
-          <th class="py-2 px-2 font-semibold">Date</th>
+          <th class="py-2 px-3 font-semibold">Name</th>
+          <th class="py-2 px-3 font-semibold">Amount</th>
+          <th class="py-2 px-3 font-semibold">Date</th>
         </tr>
         <tr v-for="sponsor in sponsors" :key="`${sponsor.name}-${sponsor.date}`" class="border-t">
-          <td class="py-2 px-2">{{ sponsor.name }}</td>
-          <td class="py-2 px-2">{{ sponsor.amount }}</td>
-          <td class="py-2 px-2">{{ sponsor.date }}</td>
+          <td class="py-3 px-3">{{ sponsor.name }}</td>
+          <td class="py-3 px-3">{{ sponsor.amount }}</td>
+          <td class="py-3 px-3">{{ sponsor.date }}</td>
         </tr>
       </tbody>
     </table>
@@ -37,6 +37,7 @@ const sponsors: Sponsor[] = [
 <style scoped>
 .sponsor-table-wrapper {
   border: 1px dashed rgba(0, 0, 0, 0.25);
+  min-width: 400px;
 }
 
 table {
@@ -44,7 +45,7 @@ table {
 }
 
 th, td {
-  text-align: left;
+  text-align: center;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
