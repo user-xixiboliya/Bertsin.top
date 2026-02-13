@@ -7,7 +7,8 @@ lastmod: 2024-12-20T11:00:00-04:00
 cover: https://upload-bbs.miyoushe.com/upload/2025/03/21/289087756/97d887d799d67579da10427573ff4ca7_6224929516410348176.jpg?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg
 ---
 
-![](imgs/5ba35e59614ed6ae5dc3a4cfaac11f40.png)
+这里给出$grad_{x}$和$grad_{y}$的求解:
+![](./imgs/5ba35e59614ed6ae5dc3a4cfaac11f40.png)
 没得满分是因为在isAsciiDigit中使用了`>>`违规符号。没有用`>>`感觉不会写……请求各位大佬对此出谋划策，感谢！
 ## 写在前面
 这部分内容参考[Arthals' ink](https://arthals.ink/blog/data-lab)。
@@ -45,7 +46,7 @@ int bitXor(int x, int y) {
 ```
 
 ## allOddBits
-![](imgs/modify.png)
+![](./imgs/modify.png)
 
 ```c
 int allOddBits(int x) {
@@ -60,7 +61,7 @@ int allOddBits(int x) {
 ```
 ## Tmax
 ### answer1
-![](imgs/duplicate.png)
+![](./imgs/duplicate.png)
 
 ```c
 int isTmax(int x) {

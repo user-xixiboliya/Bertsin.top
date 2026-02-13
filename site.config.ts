@@ -69,7 +69,7 @@ export default defineSiteConfig({
     methods: [
       {
         name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
+        url: 'https://s1.img-e.com/20260213/698f343716444.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },

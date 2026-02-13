@@ -276,7 +276,7 @@ Creating a new branch is quick AND simple.
 
 比如，以 [本技能引导文档](https://github.com/XJRCAdmin/XJTURCDocs) 所在的 Git 仓库为例。我们使用 `git clone git@github.com:XJRCAdmin/XJTURCDocs.git`，这样便把远程仓库中的内容取到了本地，并创建了工作区。
 
-![](images/image1.png)
+![](./images/image1.png)
 
 + 添加远程仓库地址
 

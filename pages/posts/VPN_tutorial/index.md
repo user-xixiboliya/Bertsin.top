@@ -42,35 +42,35 @@ chmod +x clash
 ```
 
 执行效果图如下所示：
-![clash_results image](imgs/clash_results.png)
+![clash_results image](./imgs/clash_results.png)
 
 #### 步骤四：购买机场提供的稳定VPN,并修改设置网络参数
 
 机场链接[IKUUU VPN](https://ikuuu.one/user/tutorial?os=linux&client=clash##)
 
 在这个机场里面选择VPN网络包,效果如下图所示
-![VPN_choice image](imgs/VPN_merchant.png)
+![VPN_choice image](./imgs/VPN_merchant.png)
 以 Ubuntu 20.04 为例，打开系统设置，选择网络，点击网络代理右边的`设置`按钮，选择手动，填写` HTTP` 和 `HTTPS` 代理为 `127.0.0.1:7890`，填写 `Socks` 主机为 `127.0.0.1:7891`，即可启用系统代理
 
 修改图如下所示
 
-![change_results image](imgs/change_results.png)
+![change_results image](./imgs/change_results.png)
 
 之后点击`clash`链接[clash board](https://clash.razord.top/#/proxies)
 
 clash界面如下图所示
 
-![clash image](imgs/clash.png)
+![clash image](./imgs/clash.png)
 
 点击确定，之后便可享用VPN了
 
 最终clash效果图如下所示：
 
-![VPN_results image](imgs/VPN_results.png)
+![VPN_results image](./imgs/VPN_results.png)
 
 外网游行--`Youtube`展示:
 
-![Youtube image](imgs/Youtube.png)
+![Youtube image](./imgs/Youtube.png)
 
 #### 平日开启VPN的方法
 

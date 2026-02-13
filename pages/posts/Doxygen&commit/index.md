@@ -12,7 +12,7 @@ cover: https://upload-bbs.miyoushe.com/upload/2024/12/31/289087756/ba96f60c010d3
 # 开始之前
 首先推荐大家在vscode中下载插件通灵译码或者GitHub copilot，能极大提升效率。
 示例：
-![](attachment/53f7b794d1afb9a803af3fe38129373f.png)
+![](./attachment/1.png)
 # 什么是Doxygen
 
 Doxygen 是一种**文档生成工具**，常用于整个项目的Doxyfile的生成，主要用于从源代码中提取注释，并生成技术文档。它广泛用于 C++、C、Java、Python 等多种编程语言中，帮助开发者自动生成文档，从而提高代码的可读性和维护性。
@@ -29,7 +29,7 @@ Doxygen 是一种**文档生成工具**，常用于整个项目的Doxyfile的生
 ## vscode插件
 在扩展商店里搜索并安装如下扩展
 - Doxygen Documentation Generator
-![](attachment/ce1561f40548e8ba159f0f652a931e0a.png)
+![](./attachment/2.png)
 
 接着按下`ctrl+shift+p`，输入`settings.json`，打开工作区设置，可以设置快捷键和默认样式
 ```json
@@ -82,12 +82,12 @@ Doxygen 是一种**文档生成工具**，常用于整个项目的Doxyfile的生
 ## 使用
 ### 文件头
 这部分包括`license`、版权声明注释、文件描述注释。
-![](attachment/43bb3de6535913713d9df2d780da734b.png)
+![](./attachment/3.png)
 ## 函数
 接着在函数名前、`#include`前输入`/***/`或者`///`并且分行，便可以使用`Doxygen`。
-![](attachment/323db5b811c4f15ac59903509e75c54d.png)
+![](./attachment/4.png)
 将鼠标`hover`在函数上会出现如下信息：
-![](attachment/d5c80a3adceffa5cc6d8484d1eb03fd3.png)
+![](./attachment/5.png)
 ## 生成Doxyfile
 
 打开当前工作目录，在终端中输入:
@@ -95,7 +95,7 @@ Doxygen 是一种**文档生成工具**，常用于整个项目的Doxyfile的生
 	doxygen -g // g是generate，用于生成默认的 `Doxyfile` 配置文件。
 ```
 此时你的项目下会多一个`Doxyfile`。
-![](attachment/0696d0a77f76fac3477a6456f44a2729.png)如果你想进一步，可以：
+![](./attachment/6.png)如果你想进一步，可以：
 ```bash
 	doxygen
 ```
@@ -188,7 +188,7 @@ int doxygen_theFirstFunction(int param1, int param2);
 # commit规范
 
 ## 1.示例
-![](attachment/0fd83edf427f730b0329e0a1a0dcc572.png)
+![](./attachment/7.png)
 ## 2. 提交标题（Subject Line）
 - **动词时态**：使用 **祈使句**（动词原型），描述这次提交所做的工作。比如：
     

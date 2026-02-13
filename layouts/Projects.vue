@@ -18,7 +18,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2070&auto=format&fit=crop'
   },
   {
-    title: 'Computer Systems Labs',
+    title: 'CSAPP Labs',
     description: 'CSAPP实验项目集合，包括 BombLab、DataLab、ProxyLab 等。',
     link: 'https://github.com/user-xixiboliya',
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop'

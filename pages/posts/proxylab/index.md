@@ -101,7 +101,7 @@ curl -v --proxy http://localhost:7777 http://localhost:7778/
 
 > 实现大体思路：
 
-![](output_image/2cde49b6c279b1e29f9a2944347e34b4.png)
+![](./output_image/2cde49b6c279b1e29f9a2944347e34b4.png)
 
 在`proxy`中，`open_listenfd(char* port)` 为我们完成了`getaddrinfo()`、`socket()`、`bind()`、`listen()`部分，`port`则是`char *argv[1]`，`argc`记录调用命令的参数个数。
 
@@ -518,7 +518,7 @@ void *thread(void *vargp)
 
 这种做法确保了在对队列进行操作时的线程安全，防止了多个线程同时修改队列而产生数据竞争或数据不一致的问题。
 ## 缓存
-![](output_image/a1ad5ed038fd5fdde02af741f19b2631.png)
+![](./output_image/a1ad5ed038fd5fdde02af741f19b2631.png)
 
  `Proxy` 中，当多个客户端或一个客户端多次访问同一个服务端的同一对象时，`Proxy` 每次都要从服务端请求，这是很耗费时间的。如果 `Proxy` 能把访问过的对象存储下来，那么再次遇到同样的请求时，就不需要再连接到服务端了，可以直接回复给客户端。而 `Cache` 的大小并不是无限的，所以就又要考虑替换策略，本实验要求使用 `LRU`，采用的是读者与写者的模型，读者的优先级高于写者。（见书上707页）
 

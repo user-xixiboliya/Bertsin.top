@@ -19,13 +19,13 @@ const avatarLinks = [
 const websites = [
   {
     href: 'https://xjturc.vercel.app/',
-    imgSrc: 'https://youke1.picui.cn/s1/2025/10/06/68e35ca18a03b.png',
+    imgSrc: 'https://s1.img-e.com/20260213/698f42b8e6f00.png',
     title: 'XJTU ROBOCON tutorial',
     description: 'XJTU ROBOCON 文档教程网站',
   },
   {
     href: 'https://github.com/user-xixiboliya/AI-system-HW',
-    imgSrc: 'https://youke1.picui.cn/s1/2025/10/06/68e36f557c83a.png',
+    imgSrc: 'https://i.imglt.com/20260213/d1dec77e9fff1495aaec7aada0f9796e.png',
     title: 'AI system project',
     description: 'AI system homework projects for 2025 XJTU AI system',
   }

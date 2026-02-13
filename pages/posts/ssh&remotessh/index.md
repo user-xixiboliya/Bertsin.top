@@ -5,7 +5,7 @@ categories:
   - technology 
 description: >
 resources:
-  - src: "**.{png,jpg}"
+  - src: "*.png"
     title: "Image #:counter"
     params:
       byline: ""
@@ -44,7 +44,7 @@ sudo apt install net-tools
 ifconfig
 ```
 
-![output](1.png)
+![output](./1.png)
 
 
 观察输出，其中第一项`eth0`是一个以太网网关，本机地址为172.22.44.10(wsl2的默认地址)，第二项`lo`是本地环回地址(localhost 127.0.0.1)。通过同样的方法，在其他网络中也可以分辨出你想通过哪一个网络访问该服务器，以及该服务器在网络中的ip地址是什么。
@@ -67,7 +67,7 @@ ssh ${UserName}@${IPaddress}
 
 -   如果是第一次登录，成功进入登录验证阶段
 
-    ![verification messages](3.png)
+    ![verification messages](./3.png)
 
     此时输入`yes`（注意不能是缩写`y`,`Y`,`(Enter)`），会提示输入密码，正确与不正确均有反馈，遵循提示即可
 
@@ -75,13 +75,13 @@ ssh ${UserName}@${IPaddress}
 
     -   ip地址/主机名输错，超时
 
-        ![alt text](4.png)
+      ![alt text](./4.png)
 
     -   登录的主机ip地址与之前登录过的不同主机的ip地址恰好相同
+      
+      ![error messages](./2.png)
 
-        ![error messages](2.png)
-
-        参考解决方案：[问题解决——SSH时出现WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!](https://blog.csdn.net/wangguchao/article/details/85614914)
+      参考解决方案：[问题解决——SSH时出现WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!](https://blog.csdn.net/wangguchao/article/details/85614914)
 
 
 #### 秘钥验证
@@ -94,10 +94,10 @@ ssh-keygen
 ```
 
 Ubuntu上的输出结果
-![Ubuntu上的输出结果](5.png)
+![Ubuntu上的输出结果](./5.png)
 
 Windows上的输出结果
-![Windows上的输出结果](6.png)
+![Windows上的输出结果](./6.png)
 
 接下来会弹出一堆选项，要求你确认一堆东西或者设置密码之类的，为了方便，一直按`Enter`直到完成设置。
 
@@ -110,11 +110,11 @@ Ubuntu上的`${HOME}`是`/home/${UserName}`，Windows上的`${HOME}`是`C:\Users
 
 先复制当前电脑的公钥文件`${HOME}/.ssh/${KeyType}.pub`的内容到剪切板，利用文件资源管理器打开文件夹，然后右键选择以记事本打开。
 
-![文件夹视图](8.png)
+![文件夹视图](./8.png)
 
 然后通过ssh密码登录方式连接上服务端
 
-![login](7.png)
+![login](./7.png)
 
 创建文件`${HOME}/.ssh/authorized_keys`，并且将剪切板的内容复制到文件的第一行
 
@@ -134,19 +134,19 @@ echo $PubKey> ${HOME}/.ssh/authorized_keys
 
 安装vscode后，在扩展商店中输入remote development，进行安装
 
-![search](9.png)
+![search](./9.png)
 
 安装完成后，侧边会出现远程连接的扩展菜单，点击进入扩展后，将其上方的框中选中**远程(隧道/ssh)**，可以展开所有配置好的远程ssh选项，如图所示。但是由于还没有配置过，所以应该是空的。
 
-![alt text](17.png)
+![alt text](./17.png)
 
-将光标放置在SSH一栏上，会出现![设置](11.png "设置")符号，如图
+将光标放置在SSH一栏上，会出现![设置](./11.png "设置")符号，如图
 
-![alt text](10.png)
+![alt text](./10.png)
 
 点击设置符号，更改配置文件，选择第一个文件
 
-![alt text](12.png)
+![alt text](./12.png)
 
 文件中的一个配置项的简单示例如下，可以隔一行增加另一个配置项
 
@@ -170,18 +170,17 @@ Host WSL
 
 其他字段可以在[ssh配置文件手册](https://linux.die.net/man/5/ssh_config)中找到具体的含义
 
-配置完成后，即可通过![alt text](14.png)进行远程连接。
+配置完成后，即可通过![alt text](./14.png)进行远程连接。
 
 **Tips:**
 
 **注意，这一步需要命令行ssh能够正常连接的情况下才能成功，如果没有配置公钥，则要求输入密码，弹出来的提示框比较小，并且在连接过程中会弹出多次，注意别看漏了。** 如果不小心点到其他地方让输入框消失了，会被认为进行了取消了输入密码的操作，导致远程连接失败，需要再发起一次连接或者点击retry
 
-远程连接后得到的窗口是一个空的，没有打开任何文件夹的窗口，查看状态栏（VSCode最下面那一条）的最左边![alt text](15.png)标识会显示出当前窗口是一个远程连接窗口。
+远程连接后得到的窗口是一个空的，没有打开任何文件夹的窗口，查看状态栏（VSCode最下面那一条）的最左边![alt text](./15.png)标识会显示出当前窗口是一个远程连接窗口。
 
 在窗口左上角 **文件->打开文件夹**，可以选择对应的文件夹进行开发工作。
 
-![alt text](16.png)
+![alt text](./16.png)
 
 
---- 
---- 这里是结束的分割线 ---
+ 
