@@ -11,7 +11,7 @@ npm i
 
 # start
 npm run dev
-# or pnpm dev
+# or pnpm run dev
 ```
 
 See `http://localhost:4859/`, have fun!
