@@ -1,6 +1,33 @@
 <script setup lang="ts">
 import AboutSitePage from './AboutSitePage.vue'
 
+const distributionSites = [
+  {
+    name: 'GitHub',
+    domain: 'bertsin.github.io',
+    url: 'https://bertsin.github.io/bertsinblog/',
+    logo: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#181717"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>'
+  },
+  {
+    name: 'Vercel',
+    domain: 'bertsin-blog.vercel.app',
+    url: 'https://bertsin.vercel.app/',
+    logo: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><title>Vercel</title><path d="M24 22.525H0l12-21.05 12 21.05z"/></svg>'
+  },
+  {
+    name: 'Netlify',
+    domain: 'bertsin-blog.netlify.app',
+    url: 'https://bertsin-blog.netlify.app/',
+    logo: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#00C7B7"><title>Netlify</title><path d="M16.333 0H7.667C6.746 0 6 .746 6 1.667v3.895C6 6.478 6.746 7.224 7.667 7.224h8.666c.92 0 1.667-.746 1.667-1.667V1.667C18 .746 17.254 0 16.333 0zM22.333 8.333H1.667C.746 8.333 0 9.079 0 10v12.333C0 23.254.746 24 1.667 24h20.666c.92 0 1.667-.746 1.667-1.667V10c0-.921-.747-1.667-1.667-1.667zm-12 11.334H7.667c-.92 0-1.667-.746-1.667-1.667v-5c0-.92.747-1.667 1.667-1.667h2.666c.92 0 1.667.747 1.667 1.667v5c0 .921-.747 1.667-1.667 1.667z"/></svg>'
+  },
+  {
+    name: 'Cloudflare',
+    domain: 'bertsin-blog.pages.dev',
+    url: 'https://bertsin.pages.dev/',
+    logo: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#F38020"><title>Cloudflare</title><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm3.443 17.335a5.963 5.963 0 0 1-3.443 1.135c-3.313 0-6-2.687-6-6s2.687-6 6-6a5.963 5.963 0 0 1 3.443 1.135l-1.33 1.33a3.963 3.963 0 0 0-2.113-.665c-2.209 0-4 1.791-4 4s1.791 4 4 4c.739 0 1.424-.202 2.023-.558l1.42 1.423z"/></svg>'
+  }
+]
+
 const techStack = [
   {
     category: 'Frontend',
@@ -139,17 +166,36 @@ const statistics = [
 
         <!-- 网站特性 -->
         <section class="mb-12">
-          <h2 class="text-2xl font-semibold mb-6">✨ 网站特性</h2>
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div
-              v-for="feature in features"
-              :key="feature.title"
-              class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition-all hover:-translate-y-1"
+          <h2 class="text-2xl font-semibold mb-6">✨ 网页分发</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+            为了提供更好的访问体验和可靠性，本站在多个平台进行了部署，您可以选择合适的镜像站点进行访问：
+            </p>
+            <div class="grid md:grid-cols-2 gap-4">
+            <a
+              v-for="site in distributionSites"
+              :key="site.name"
+              :href="site.url"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-4 p-3 bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm hover:shadow-md hover:border-blue-500 dark:hover:border-blue-500 transition-all duration-300 group"
             >
-              <div class="text-3xl mb-3">{{ feature.icon }}</div>
-              <h3 class="text-lg font-semibold mb-2">{{ feature.title }}</h3>
-              <p class="text-gray-600 dark:text-gray-400 text-sm">{{ feature.description }}</p>
-            </div>
+              <!-- Logo Wrapper -->
+              <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-muted dark:bg-gray-700/50">
+                <div
+                  class="h-6 w-6"
+                  v-html="site.logo"
+                ></div>
+              </div>
+              <!-- Title and Domain -->
+              <div class="flex-grow">
+                <h4 class="font-semibold text-gray-800 dark:text-gray-200">{{ site.name }}</h4>
+                <p class="text-sm text-gray-500 dark:text-gray-400">{{ site.domain }}</p>
+              </div>
+              <!-- Arrow Icon -->
+              <div class="w-6 h-6 text-gray-400 dark:text-gray-500 group-hover:translate-x-1 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" /></svg>
+              </div>
+            </a>
           </div>
         </section>
 

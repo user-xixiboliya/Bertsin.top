@@ -215,6 +215,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/PaperReading/': RouteRecordInfo<
+      '/posts/PaperReading/',
+      '/posts/PaperReading',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/proxylab/': RouteRecordInfo<
       '/posts/proxylab/',
       '/posts/proxylab',
@@ -429,6 +436,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/hello-valaxy.md': {
       routes:
         | '/posts/hello-valaxy'
+      views:
+        | never
+    }
+    'pages/posts/PaperReading/index.md': {
+      routes:
+        | '/posts/PaperReading/'
       views:
         | never
     }

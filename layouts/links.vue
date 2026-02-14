@@ -72,13 +72,6 @@ const friendLinks: Link[] = [
     rss: 'https://axi404.top/rss.xml'
   },
   {
-    name: 'Arthals\' ink',
-    url: 'https://arthals.ink',
-    desc: '所见高山远木，阔云流风；所幸岁月盈余，了无拘束',
-    avatar: 'https://cdn.arthals.ink/Arthals.png',
-    rss: 'https://arthals.ink/rss.xml'
-  },
-  {
     name: 'Gaster',
     url: 'https://github.com/WDGaster703',
     desc: 'HITsz电气大牛，HOA master',
@@ -91,6 +84,13 @@ const friendLinks: Link[] = [
     desc: '你突然对我说 七里香的名字很美',
     avatar: 'https://pic.axi404.top/xiaoshu.7sn53widtv.webp',
     rss: 'https://www.juniortree.com/rss.xml'
+  },
+  {
+    name: '开卷空间',
+    url: 'https://huang2202.github.io/',
+    desc: '一个关于追寻北极星的博客',
+    avatar: 'https://huang2202.github.io/_astro/nova.BRIMhOvw_Z1lgdTW.webp',
+    rss: 'https://huang2202.github.io/atom.xml'
   }
 ]
 
