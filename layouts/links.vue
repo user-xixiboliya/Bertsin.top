@@ -91,7 +91,15 @@ const friendLinks: Link[] = [
     desc: '一个关于追寻北极星的博客',
     avatar: 'https://huang2202.github.io/_astro/nova.BRIMhOvw_Z1lgdTW.webp',
     rss: 'https://huang2202.github.io/atom.xml'
+  },
+  {
+    name: 'SilverDragon',
+    url: 'https://blog.electro-dragon.site/',
+    desc: 'Pure trash',
+    avatar: 'https://blog-material.electro-dragon.site/my_avatar.png',
+    rss: 'https://blog.electro-dragon.site/rss.xml'
   }
+  
 ]
 
 onMounted(() => {

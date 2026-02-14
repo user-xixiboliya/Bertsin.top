@@ -6,6 +6,7 @@ import { addonWaline } from 'valaxy-addon-waline'
 // import { addonBackgrounds } from 'valaxy-addon-backgrounds'
 import { addonHitokoto } from 'valaxy-addon-hitokoto'
 import { addonComponents, ValaxyThemesResolver } from 'valaxy-addon-components'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default defineValaxyConfig<ThemeUserConfig>({
   theme: 'sakura',
