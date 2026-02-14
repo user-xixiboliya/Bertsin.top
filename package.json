@@ -15,6 +15,7 @@
     "@iconify/json": "^2.2.390",
     "github-calendar": "^2.3.4",
     "valaxy": "0.27.0",
+    "valaxy-addon-algolia": "^0.2.0",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-meting": "^0.1.4",

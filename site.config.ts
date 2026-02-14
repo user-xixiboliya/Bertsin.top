@@ -56,7 +56,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
-    type: 'algolia',
+    provider: 'algolia',
   },
   license: {
     enabled: true,

@@ -57,7 +57,7 @@ public ResponseEntity<String> updateDog(@PathVariable int id, @RequestBody Dog d
 ```
 ## MultiUpload 接口
 对于GB数据大对象：
-![](attachment/5.png)
+![](./attachment/5.png)
 - **Web应用**：允许用户一次上传多个文件，如在照片库中上传多个图片文件。
 - **云存储服务**：例如AWS S3、Google Cloud Storage等支持批量上传文件。
 ### 实现

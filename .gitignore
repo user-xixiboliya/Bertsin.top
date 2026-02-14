@@ -30,3 +30,6 @@ public/feed.json
 
 .vercel/
 .vercel
+
+# valaxy fuse
+public/valaxy-fuse-list.json

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import linksPage from './linksPage.vue'
+import linksPage from '../linksPage.vue'
 </script>
 
 <template>
