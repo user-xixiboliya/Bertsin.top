@@ -8,7 +8,7 @@ on:
       - valaxy
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ${{ matrix.os }}
@@ -21,6 +21,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: 📦 Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 10
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2

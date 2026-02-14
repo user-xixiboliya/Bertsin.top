@@ -13,9 +13,9 @@ top: 1
 
 ## Valaxy
 
-本站基于 [Valaxy](https://valaxy.site/) 构建，valaxy支持在markdown中插入vue语言组件。这篇博客用于记录本框架下markdown中常用的插件的调用方法，同时记录一些一些肯能会用到的组件。
+本站基于 [Valaxy](https://valaxy.site/) 构建。Valaxy 是一个支持在 Markdown 中直接嵌入 Vue 组件的静态博客框架，使得内容不仅限于静态文本，还可以灵活调用动态组件，从而提升文章的表现力与交互性。
 
-Write your first post!
+对于本文而言，旨在系统记录在该框架下 Markdown 中常用插件的使用方式，并整理一些可能会用到的组件示例，以便于后续参考与复用。
 
 ## Usage
 
