@@ -386,17 +386,18 @@ H代表一般性的结论，S代表所有证据的一部分，可以表示为我
 
 证据充分性的度量 p(H|E)=1。
 
-$$\frac{{p(H|E)}}{{P(\neg H|E)}} = \frac{{p(E|H)}}{{p(E|\neg H)}}\frac{{p(H)}}{{p(\neg H)}},LS = \frac{{p(E|H)}}{{p(E|\neg H)}}$$
+$$\frac{ {p(H|E)}}{ {P(\neg H|E)}} = \frac{ {p(E|H)}}{ {p(E|\neg H)}}\frac{ {p(H)}}{ {p(\neg H)}},LS = \frac{ {p(E|H)}}{ {p(E|\neg H)}}$$
 我们考察证据E对H的支撑程度，看等号左边。当LS为正无穷的时候，$P(H|E)$无限大。上式也可以写作：
 $O(H|E)=LS*O(H)$
-$$\frac{{p(H|\neg E)}}{{P(\neg H|\neg E)}} = \frac{{p(\neg E|H)}}{{p(\neg E|\neg H)}}\frac{{p(H)}}{{p(\neg H)}},LN = \frac{{p(\neg E|H)}}{{p(\neg E|\neg H)}}$$
+$$\frac{ {p(H|\neg E)}}{ {P(\neg H|\neg E)}} = \frac{ {p(\neg E|H)}}{ {p(\neg E|\neg H)}}\frac{ {p(H)}}{ {p(\neg H)}},LN = \frac{ {p(\neg E|H)}}{ {p(\neg E|\neg H)}}$$
 证据必要性的度量：$O(H|\neg E) = 0$
 
-$LN = \frac{{O(H|E)}}{{O(N)}}$,$LN = \frac{{p(\neg E|H)}}{{p(\neg E|\neg H)}}$
+$LN = \frac{ {O(H|E)}}{ {O(N)}}$,$LN = \frac{ {p(\neg E|H)}}{ {p(\neg E|\neg H)}}$
 ![](./output_image/69ecee0fdf83c87f958a5272e4787a83.png)
 ![](./output_image/98b6fc6a30c728539e6912955accf862.png)
 ### 杜达公式
 ~~带鱼胆固醇含量高。~~
+
 $p(H|S) = p(H|E)p(E|S) + p(H|\neg E)p(\neg E|S)$
 **(100,0.01)** 代表$LS$为100， $LN$为0.01.
 ![](./output_image/61d94d11e300585fd03e973a7293525a.png)
@@ -432,7 +433,7 @@ $CF(H) = CF(H,E) \times \max \{ 0,CF(E)\}$
 先算出每个证据的可信度 
 ![](./output_image/cd96e8c84217c0880f270770cb5823f0.png)
 $E_1(0.6)$ 这个代表的是证据的权重$w$，$E_6(0.8,0.75)$中，$0.8$是可信度，$0.75$是阈值。
-先算$CF(E_6)和$$CF(E_7)$，再$\frac{{0.7CF({E_6}) + 0.6CF({E_7})}}{{(0.7 + 0.3)}}$=$CF({\bar E})$，$CF({\bar E})$与阈值0.6进行比较发现$CF({\bar E})$比0.6大，于是使用$CF({\bar E})$。$R_3$那一句的$CF(R_3)=CF(H,E)$，再使用$CF(\bar E)*CF(H,E)$，得到$CF(H)$。
+先算$CF(E_6)和$$CF(E_7)$，再$\frac{ {0.7CF({E_6}) + 0.6CF({E_7})}}{ {(0.7 + 0.3)}}$=$CF({\bar E})$，$CF({\bar E})$与阈值0.6进行比较发现$CF({\bar E})$比0.6大，于是使用$CF({\bar E})$。$R_3$那一句的$CF(R_3)=CF(H,E)$，再使用$CF(\bar E)*CF(H,E)$，得到$CF(H)$。
 ![](./output_image/3a2538ad2ff1b27507ccc486224d5b93.png)
 ![](./output_image/37a8f2c1e31523c4b82f640f73f88536.png)
 ## 证据理论

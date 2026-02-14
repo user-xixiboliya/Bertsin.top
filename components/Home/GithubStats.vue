@@ -41,7 +41,7 @@ const bgColor = computed(() => (isDark.value ? '0d1117' : 'ffffff'))
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">  <!--gap 用于调整两个卡片之间的距离-->
         <!-- GitHub Stats Card -->
         <img 
-          :src="`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&title_color=${titleColor}&text_color=${textColor}&icon_color=${iconColor}&bg_color=${bgColor}`"
+          :src="`https://github-readme-stats-fast.vercel.app/api?username=${username}&show_icons=true&hide_border=true&title_color=${titleColor}&text_color=${textColor}&icon_color=${iconColor}&bg_color=${bgColor}`"
           :alt="`${username}'s GitHub Stats`"
           loading="lazy"
           decoding="async"
@@ -49,7 +49,7 @@ const bgColor = computed(() => (isDark.value ? '0d1117' : 'ffffff'))
         />
         <!-- Top Languages Card -->
         <img 
-          :src="`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&hide_border=true&title_color=${titleColor}&text_color=${textColor}&bg_color=${bgColor}`"
+          :src="`https://github-readme-stats-fast.vercel.app/api/top-langs/?username=${username}&layout=compact&hide_border=true&title_color=${titleColor}&text_color=${textColor}&bg_color=${bgColor}`"
           :alt="`${username}'s Top Languages`"
           loading="lazy"
           decoding="async"

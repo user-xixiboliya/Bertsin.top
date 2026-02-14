@@ -42,13 +42,19 @@ defineProps<{
 </template>
 
 <style>
-/* 容器样式 - 用于包含多个卡片 */
 .content-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 16px;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.content-card-container::after {
+  content: '';
+  display: block;
+  height: 1rem;
+  width: 100%;
 }
 
 /* 响应式调整 */

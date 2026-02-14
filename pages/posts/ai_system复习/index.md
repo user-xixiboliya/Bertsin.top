@@ -310,8 +310,8 @@ CPUs和GPUs通常需要花费大量的功耗去读取寄存器的值，脉动阵
 	死代码消除一般不是在定义神经网络模型结构时候引起的，而是其他图优化Pass造成的结果，因此死代码消除Pass常常在其他图优化pass后被应用。如无用的控制流、推理时仅删除训练相关的子图。
 - 常量折叠	
 	- 例如`i = 320 * 20`，不需要`%a:load 320,%b:load 20,%x:mul %a %b`，而是可以直接`load 6400` 。
-	- `BN`折叠，主要用于将 ​**​Batch Normalization（BN）层​**​ 的参数合并到其前驱的 ​**​卷积层（Conv）​**​ 或 ​**​全连接层（FC）​**​ 中，从而减少推理时的计算量并提升部署效率。其将`Batch Normailzation`各层输入进行归一化。对于${x_{1},x_{2},\dots,x_{m}}$，在$batch$维度拼接。训练时，$\gamma \beta \mu \sigma$一直在更新，推理时则是固定，在推理过程中，BN像是对上一层结果进行的简单线性变换。由于卷积也是一个线性变换，这两个操作甚至可以合并成一个单一的线性变换，这将提升推理速度。$$\frac{1}{m}\sum\limits_m {{x_m}}  = \mu \quad \frac{1}{m} {\sum\limits_{i = 0}^m {{{({x_i} - \mu )}^2}} }  = {\sigma ^2}\quad {\hat x_i} = \frac{{{x_i} - \mu }}{{\sqrt {{\sigma ^2} + \varepsilon } }} \quad{y_i} \leftarrow \gamma {\hat x_i} + \beta $$
-	 - `BN`折叠，合并BN层后的卷积层权重和偏置可以表示为$z = {W_{fold}} \times x + {b_{fold}}$，减少了访存时间。其中：$${W_{fold}} = \gamma \frac{w}{{\sqrt {{\sigma ^2} + \varepsilon } }} + \beta \quad {b_{fold}} = \gamma \frac{{b - \mu }}{{\sqrt {{\sigma ^2} + \varepsilon } }} + \beta $$
+	- `BN`折叠，主要用于将 ​**​Batch Normalization（BN）层​**​ 的参数合并到其前驱的 ​**​卷积层（Conv）​**​ 或 ​**​全连接层（FC）​**​ 中，从而减少推理时的计算量并提升部署效率。其将`Batch Normailzation`各层输入进行归一化。对于${x_{1},x_{2},\dots,x_{m}}$，在$batch$维度拼接。训练时，$\gamma \beta \mu \sigma$一直在更新，推理时则是固定，在推理过程中，BN像是对上一层结果进行的简单线性变换。由于卷积也是一个线性变换，这两个操作甚至可以合并成一个单一的线性变换，这将提升推理速度。$$\frac{1}{m}\sum\limits_m { {x_m}}  = \mu \quad \frac{1}{m} {\sum\limits_{i = 0}^m { { {({x_i} - \mu )}^2}} }  = {\sigma ^2}\quad {\hat x_i} = \frac{ { {x_i} - \mu }}{ {\sqrt { {\sigma ^2} + \varepsilon } }} \quad{y_i} \leftarrow \gamma {\hat x_i} + \beta $$
+	 - `BN`折叠，合并BN层后的卷积层权重和偏置可以表示为$z = {W_{fold}} \times x + {b_{fold}}$，减少了访存时间。其中：$${W_{fold}} = \gamma \frac{w}{ {\sqrt { {\sigma ^2} + \varepsilon } }} + \beta \quad {b_{fold}} = \gamma \frac{ {b - \mu }}{ {\sqrt { {\sigma ^2} + \varepsilon } }} + \beta $$
 -  算子融合，向量化的多个算子的操作可以合并成一个向量化操作。既可以减少内核启动开销，又可以减少内存的读取，提高计算精密度
 - GEMM自动融合。将输入张量合并成一个大张量来实现相同的算子合并成更大的算子，提高并行度。
 - 布局转换。讨论了`tensor`的布局方式，有列优先存储、行优先存储这样的。在深度学习领域，多维数据通过多维数组存储，例如卷积神经网络通常采用四维数组保存，即`N H W C`。`N`是`batch`数量。

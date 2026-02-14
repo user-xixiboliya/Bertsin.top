@@ -13,7 +13,7 @@ top: 1
 
 ## Valaxy
 
-本站基于 [Valaxy](https://valaxy.site/) 构建，这篇博客用于记录markdown中常用的插件的调用方法。
+本站基于 [Valaxy](https://valaxy.site/) 构建，valaxy支持在markdown中插入vue语言组件。这篇博客用于记录本框架下markdown中常用的插件的调用方法，同时记录一些一些肯能会用到的组件。
 
 Write your first post!
 
@@ -25,7 +25,7 @@ Modify `valaxy.config.ts` to custom your blog[^1-zh] :100:.
 
 
 ### 项目展示
-
+这一部分展示了项目卡片Grid。
 <ContentCard>
   <Card
     title="Valaxy"
