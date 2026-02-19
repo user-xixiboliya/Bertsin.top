@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Bertsin Home</title>
+        <link>https://github.com/user-xixiboliya/</link>
+        <description>Valaxy Theme Sakura1 Preview.</description>
+        <lastBuildDate>Thu, 19 Feb 2026 02:48:05 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Bertsin Home</title>
+            <url>https://gravatar.com/avatar/08816a513ec0691873ac3f5883431763</url>
+            <link>https://github.com/user-xixiboliya/</link>
+        </image>
+        <copyright>CC BY-SA 4.0 2026 ©  Bertsin</copyright>
+        <atom:link href="https://github.com/user-xixiboliya/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Paper Reading 1]]></title>
+            <link>https://github.com/user-xixiboliya/posts/PaperReading/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/PaperReading/index</guid>
+            <pubDate>Tue, 21 Oct 2025 22:10:00 GMT</pubDate>
+            <description><![CDATA[快速的从一些论文中扫过，您真的要dive into 它们吗？]]></description>
+            <content:encoded><![CDATA[<h1>pi0</h1>
+<p>如你所见，pi 0 的flow match model VLA包括一个大的VLM backbone 以及一个较小的 action expert组成，VLM backbone有权重初始化。输</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/PaperReading/index" target="_blank">https://github.com/user-xixiboliya/posts/PaperReading/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux/ubuntu Git教程]]></title>
+            <link>https://github.com/user-xixiboliya/posts/GitIntro/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/GitIntro/index</guid>
+            <pubDate>Mon, 04 Aug 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Git：分布式版本控制软件</h1>
+<p><img src="https://i.loli.net/2021/10/07/yTHKCmGkxJXUOSj.png" alt="image-20211007231126799"></p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/GitIntro/index" target="_blank">https://github.com/user-xixiboliya/posts/GitIntro/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[认知心理学复习纲要]]></title>
+            <link>https://github.com/user-xixiboliya/posts/Psychology/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/Psychology/index</guid>
+            <pubDate>Wed, 23 Jul 2025 22:10:00 GMT</pubDate>
+            <description><![CDATA[一份难评的课的期末复习资料。]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>“出题极其阴险。给人留下很不好的印象。”</p>
+</blockquote>
+<p><code>题型有 名词解释、成对概念分析、填空、判断对错、匹配连线、填图、实验分析、psychopy。</code></p>
+<p>认知心理学以研究黑箱方法为主，神经生物学以白箱研究为主</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/Psychology/index" target="_blank">https://github.com/user-xixiboliya/posts/Psychology/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[2025XJTU AI系统复习]]></title>
+            <link>https://github.com/user-xixiboliya/posts/ai_system复习/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/ai_system复习/index</guid>
+            <pubDate>Thu, 01 May 2025 22:10:00 GMT</pubDate>
+            <description><![CDATA[本课程的中文名称设定为人工智能系统，主要讲解支持人工智能的计算机系统设计，对应的英文课程名称为 System for AI。本课程中将交替使用以下词汇：人工智能系统，AI-System 和 System for AI。本课程为微软人工智能教育与共建社区中规划的人工智能相关教程之一，在基础教程模块下，课程编号和名称为 A6-人工智能系统。]]></description>
+            <content:encoded><![CDATA[<h1>深度神经网络基础</h1>
+<h2>早期的深度学习框架</h2>
+<p>主要用来CNN网络图像识别，由一些常用的layers组成。<br>
+主要特点就是通过.yaml这样的配置文件定义神经网络，可由一些常用的layer构成一个简单</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/ai_system复习/index" target="_blank">https://github.com/user-xixiboliya/posts/ai_system复习/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[2025XJTU AI系统实验]]></title>
+            <link>https://github.com/user-xixiboliya/posts/ai_system/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/ai_system/index</guid>
+            <pubDate>Tue, 01 Apr 2025 22:10:00 GMT</pubDate>
+            <description><![CDATA[本课程的中文名称设定为人工智能系统，主要讲解支持人工智能的计算机系统设计，对应的英文课程名称为 System for AI。本课程中将交替使用以下词汇：人工智能系统，AI-System 和 System for AI。本课程为微软人工智能教育与共建社区中规划的人工智能相关教程之一，在基础教程模块下，课程编号和名称为 A6-人工智能系统。]]></description>
+            <content:encoded><![CDATA[<h1>XJTU AI system Experiments 2025</h1>
+<p>本仓库内容与Microsoft的AI System融合紧密，为其附属作业。这里有基本的作业项目Microsoft AI Syst</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/ai_system/index" target="_blank">https://github.com/user-xixiboliya/posts/ai_system/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[Valaxy Markdown组件调用库]]></title>
+            <link>https://github.com/user-xixiboliya/posts/hello-valaxy</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/hello-valaxy</guid>
+            <pubDate>Tue, 01 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[这篇博文展示了改网站一些在markdown中常用的插件。]]></description>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>本站基于 <a href="https://valaxy.site/">Valaxy</a> 构建。Valaxy 是一个支持在 Markdown 中直接嵌入 Vue 组件的静态博客框架，使得内容不仅</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/hello-valaxy" target="_blank">https://github.com/user-xixiboliya/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[daemon 与 服务]]></title>
+            <link>https://github.com/user-xixiboliya/posts/daemon/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/daemon/index</guid>
+            <pubDate>Thu, 20 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[《鸟哥linux私房菜部分阅读记录》]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>本文内容有待完善。</p>
+</blockquote>
+<ul>
+<li>daemon，字面上意思为“守护神、恶魔”，通常没有 GUI 界面，是 Unix/Linux 环境的典型产物。具体表现为后台运行、不与终端交互的单个进程，是一种</li>
+</ul>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/daemon/index" target="_blank">https://github.com/user-xixiboliya/posts/daemon/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[CMU Proxylab]]></title>
+            <link>https://github.com/user-xixiboliya/posts/proxylab/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/proxylab/index</guid>
+            <pubDate>Sat, 25 Jan 2025 22:18:00 GMT</pubDate>
+            <description><![CDATA[CMU深入理解计算机系统的proxylab，搭建预线程化的并发代理服务器，配有cache。]]></description>
+            <content:encoded><![CDATA[<p>本文的所有配置、指令均以 Ubuntu 环境为例，而且假设你不具有桌面环境，只有纯命令行环境。</p>
+<h1>Pre-start</h1>
+<p>在工作目录下解压<code>proxylab - handout.tar</code>：</p>
+<pre><code class="language-ba"></code></pre>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/proxylab/index" target="_blank">https://github.com/user-xixiboliya/posts/proxylab/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[人工智能概论复习笔记]]></title>
+            <link>https://github.com/user-xixiboliya/posts/AI概论/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/AI概论/index</guid>
+            <pubDate>Fri, 24 Jan 2025 23:30:00 GMT</pubDate>
+            <description><![CDATA[2024 XJTU 人工智能概论复习笔记。]]></description>
+            <content:encoded><![CDATA[<h1>导论部分</h1>
+<p>1956年的达特茅斯会议标志着AI诞生，图灵是人工智能之父[^1-zh]。<br>
+机器智能的本质属性是自然性。<br>
+关于智能疑惑：多元智能理论、智能三元理论(分析、创造、实用)、智能发展</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/AI概论/index" target="_blank">https://github.com/user-xixiboliya/posts/AI概论/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[人工智能与现代物理Ⅰ复习笔记]]></title>
+            <link>https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index</guid>
+            <pubDate>Fri, 24 Jan 2025 22:10:00 GMT</pubDate>
+            <description><![CDATA[2024 XJTU 人工智能与现代物理Ⅰ，第一年开课。]]></description>
+            <content:encoded><![CDATA[<h1>经典物理部分</h1>
+<p>本部分不做详尽说明。</p>
+<p>牛顿运动定律+微积分</p>
+<p>速度：$v(t) = \frac{ {dr(t)}}{ {dt}}$</p>
+<p>加速度：$a(t) = \frac{ {dv(t)}}{</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index" target="_blank">https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[一些奇怪小技巧]]></title>
+            <link>https://github.com/user-xixiboliya/posts/奇怪小技巧/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/奇怪小技巧/index</guid>
+            <pubDate>Thu, 23 Jan 2025 22:10:00 GMT</pubDate>
+            <description><![CDATA[记录一下奇怪的东西。]]></description>
+            <content:encoded><![CDATA[<h1>Shields.io徽章制作</h1>
+<p>在浏览 GitHub 时，你可能发现很多项目都有很漂亮的徽章。这些徽章可以用来显示项目版本、进度条、star 数量、fork 数量....，那么这些徽章是如何生成的</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/奇怪小技巧/index" target="_blank">https://github.com/user-xixiboliya/posts/奇怪小技巧/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[CMU CSAPP bomblab phase1 ~ phase5 解答]]></title>
+            <link>https://github.com/user-xixiboliya/posts/bomblab/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/bomblab/index</guid>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[卡耐基梅隆大学 CSAPP 深入理解计算机系统课后作业lab。]]></description>
+            <content:encoded><![CDATA[<h1>写在前面</h1>
+<p>贴一个下载链接<a href="https://csapp.cs.cmu.edu/3e/labs.html">CS:APP3e, Bryant and O'Hallaron (cmu.edu)</a>，点击</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/bomblab/index" target="_blank">https://github.com/user-xixiboliya/posts/bomblab/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[docker与dev container插件的使用]]></title>
+            <link>https://github.com/user-xixiboliya/posts/docker/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/docker/index</guid>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[本文侧重1.讲解docker的插件使用。2.robocon视觉consimulation项目的跨环境迁移]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>本文侧重1.讲解docker的插件使用。2.视觉consimulation项目的跨环境迁移</p>
+</blockquote>
+<h1>基础配置</h1>
+<ul>
+<li>安装vscode。</li>
+<li>在vscode安装 Docker 插件与ms-vscode-</li>
+</ul>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/docker/index" target="_blank">https://github.com/user-xixiboliya/posts/docker/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[存储系统基础]]></title>
+            <link>https://github.com/user-xixiboliya/posts/对象存储基础/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/对象存储基础/index</guid>
+            <pubDate>Fri, 17 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[本文涵盖TOS、restful风格等基本认识。]]></description>
+            <content:encoded><![CDATA[<p>存储系统分为四类：</p>
+<ul>
+<li>单机存储 File-system Key-Value</li>
+<li>单机数据库 关系型和非关系型</li>
+<li>分布式存储 分布式文件系统GFS HDFS等 对象存储TOS</li>
+<li>分布式数据库：关系</li>
+</ul>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/对象存储基础/index" target="_blank">https://github.com/user-xixiboliya/posts/对象存储基础/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[my 2024 summary]]></title>
+            <link>https://github.com/user-xixiboliya/posts/我的2024总结/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/我的2024总结/index</guid>
+            <pubDate>Sun, 29 Dec 2024 22:10:00 GMT</pubDate>
+            <description><![CDATA[笔者迟到的2024年终总结。]]></description>
+            <content:encoded><![CDATA[<h1>我的2024总结</h1>
+<p>当敲下‘my 2024 summary’这行标题开始本文的写作时，我正身处z128号列车归乡途中。z128是连接东西的大动脉之一，从西北到东南，从古都到蛮夷之地，从兰州、西安到福</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/我的2024总结/index" target="_blank">https://github.com/user-xixiboliya/posts/我的2024总结/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[Doxygen 与 commit规范]]></title>
+            <link>https://github.com/user-xixiboliya/posts/Doxygen&amp;commit/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/Doxygen&amp;commit/index</guid>
+            <pubDate>Tue, 24 Dec 2024 18:00:00 GMT</pubDate>
+            <description><![CDATA[Doxygen 是一种**文档生成工具**，常用于整个项目的Doxyfile的生成，主要用于从源代码中提取注释，并生成技术文档。它广泛用于 C++、C、Java、Python 等多种编程语言中，帮助开发者自动生成文档，从而提高代码的可读性和维护性。]]></description>
+            <content:encoded><![CDATA[<h1>开始之前</h1>
+<p>首先推荐大家在vscode中下载插件通灵译码或者GitHub copilot，能极大提升效率。<br>
+示例：<br>
+<img src="https://github.com/user-xixiboliya/posts/Doxygen&commit/attachment/1.png" alt=""></p>
+<h1>什么是Doxygen</h1>
+<p>Do</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/Doxygen&commit/index" target="_blank">https://github.com/user-xixiboliya/posts/Doxygen&commit/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[《置身事内》读后记]]></title>
+            <link>https://github.com/user-xixiboliya/posts/置身事内/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/置身事内/index</guid>
+            <pubDate>Mon, 23 Dec 2024 22:10:00 GMT</pubDate>
+            <description><![CDATA[《置身事内》——一本关于中国政府的书]]></description>
+            <content:encoded><![CDATA[<h1>《置身事内》</h1>
+<blockquote>
+<p>本文作为全书内容的大体回顾会更好一些。</p>
+</blockquote>
+<p>这是一本关于中国政府与经济发展的书，政府不仅参与公共服务，也深刻影响着资源与分配。<br>
+先姑且描述一下各个章节的内容：</p>
+<ul>
+<li>第一章讨论的</li>
+</ul>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/置身事内/index" target="_blank">https://github.com/user-xixiboliya/posts/置身事内/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[CMU Datalab]]></title>
+            <link>https://github.com/user-xixiboliya/posts/Datalab/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/Datalab/index</guid>
+            <pubDate>Fri, 22 Nov 2024 18:00:00 GMT</pubDate>
+            <description><![CDATA[本人关于CMU Datalab的答案。]]></description>
+            <content:encoded><![CDATA[<p>这里给出$grad_{x}$和$grad_{y}$的求解:<br>
+<img src="https://github.com/user-xixiboliya/posts/Datalab/imgs/5ba35e59614ed6ae5dc3a4cfaac11f40.png" alt=""><br>
+没得满分是因为在isAsciiDigit</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/Datalab/index" target="_blank">https://github.com/user-xixiboliya/posts/Datalab/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux/ubuntu VPN教程]]></title>
+            <link>https://github.com/user-xixiboliya/posts/VPN_tutorial/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/VPN_tutorial/index</guid>
+            <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Ubuntu 22.04 VPN配置教程</h2>
+<hr>
+<p>ubuntu版本不同其实差别不是很大。</p>
+<h4>步骤一：建立clash文件夹并导入安装包</h4>
+<pre><code class="language-bash"></code></pre>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/VPN_tutorial/index" target="_blank">https://github.com/user-xixiboliya/posts/VPN_tutorial/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[ssh与remote ssh的使用]]></title>
+            <link>https://github.com/user-xixiboliya/posts/ssh&amp;remotessh/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/ssh&amp;remotessh/index</guid>
+            <pubDate>Sat, 07 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>ssh简介</h2>
+<p>ssh是一个多义词。</p>
+<ol>
+<li>SSH（Secure Shell，安全外壳）是一种<strong>网络安全协议</strong>。SSH协议通过对网络数据进行加密和验证，在不安全的网络环境中提供</li>
+</ol>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/ssh&remotessh/index" target="_blank">https://github.com/user-xixiboliya/posts/ssh&remotessh/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[具身治疗：斯多葛派“印象”训练]]></title>
+            <link>https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index</guid>
+            <pubDate>Sun, 23 Jun 2024 22:10:00 GMT</pubDate>
+            <description><![CDATA[斯多葛是古希腊时期的哲学流派，笔者曾经研读过相关书籍，笔者曾因为这一篇文章食宿、往返费用报销地去复旦大学玩了两天。]]></description>
+            <content:encoded><![CDATA[<h1>【摘要】</h1>
+<p>斯多葛是古希腊思潮中影响深远的流派，其偏重于建立一种唯理基础的伦理学，对个体因“印象”而产生的“激情”采用内心改观，通过哲学训练参与检视“印象”的恰当性，进而达到“不动心”的稳定状态。</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index" target="_blank">https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+        <item>
+            <title><![CDATA[一种健康的现代斯多葛主义]]></title>
+            <link>https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index</link>
+            <guid isPermaLink="false">https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index</guid>
+            <pubDate>Thu, 23 May 2024 22:10:00 GMT</pubDate>
+            <description><![CDATA[斯多葛是古希腊时期的哲学流派，笔者曾经研读过相关书籍，这篇文章的加入是为了丰富博客的内容，彰显博文多样性。]]></description>
+            <content:encoded><![CDATA[<h3>一次最意外的考验</h3>
+<p>“骑行者vs.小鹿”——这是护士递给我的医学报告的标题。在我正为这本书写结尾时，我迎来了一场最终的考验，而这恰是我未曾预演的事情。我先生马歇尔那时正在离家不远的岩溪公园（R</p>
+<br/><p>访问 <a href="https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index" target="_blank">https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site ( Bertsin)</author>
+        </item>
+    </channel>
+</rss>

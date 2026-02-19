@@ -1,0 +1,297 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Bertsin Home",
+    "home_page_url": "https://github.com/user-xixiboliya/",
+    "feed_url": "https://github.com/user-xixiboliya/feed.json",
+    "description": "Valaxy Theme Sakura1 Preview.",
+    "icon": "https://gravatar.com/avatar/08816a513ec0691873ac3f5883431763",
+    "author": {
+        "name": " Bertsin",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://github.com/user-xixiboliya/posts/PaperReading/index",
+            "content_html": "<h1>pi0</h1>\n<p>如你所见，pi 0 的flow match model VLA包括一个大的VLM backbone 以及一个较小的 action expert组成，VLM backbone有权重初始化。输</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/PaperReading/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/PaperReading/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/PaperReading/index",
+            "title": "Paper Reading 1",
+            "summary": "快速的从一些论文中扫过，您真的要dive into 它们吗？",
+            "date_modified": "2025-10-21T22:10:00.000Z",
+            "date_published": "2025-10-21T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/GitIntro/index",
+            "content_html": "<h1>Git：分布式版本控制软件</h1>\n<p><img src=\"https://i.loli.net/2021/10/07/yTHKCmGkxJXUOSj.png\" alt=\"image-20211007231126799\"></p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/GitIntro/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/GitIntro/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/GitIntro/index",
+            "title": "Linux/ubuntu Git教程",
+            "date_modified": "2025-08-04T00:00:00.000Z",
+            "date_published": "2025-08-04T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/Psychology/index",
+            "content_html": "<blockquote>\n<p>“出题极其阴险。给人留下很不好的印象。”</p>\n</blockquote>\n<p><code>题型有 名词解释、成对概念分析、填空、判断对错、匹配连线、填图、实验分析、psychopy。</code></p>\n<p>认知心理学以研究黑箱方法为主，神经生物学以白箱研究为主</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/Psychology/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/Psychology/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/Psychology/index",
+            "title": "认知心理学复习纲要",
+            "summary": "一份难评的课的期末复习资料。",
+            "date_modified": "2025-07-23T22:10:00.000Z",
+            "date_published": "2025-07-23T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/ai_system复习/index",
+            "content_html": "<h1>深度神经网络基础</h1>\n<h2>早期的深度学习框架</h2>\n<p>主要用来CNN网络图像识别，由一些常用的layers组成。<br>\n主要特点就是通过.yaml这样的配置文件定义神经网络，可由一些常用的layer构成一个简单</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/ai_system复习/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/ai_system复习/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/ai_system复习/index",
+            "title": "2025XJTU AI系统复习",
+            "summary": "本课程的中文名称设定为人工智能系统，主要讲解支持人工智能的计算机系统设计，对应的英文课程名称为 System for AI。本课程中将交替使用以下词汇：人工智能系统，AI-System 和 System for AI。本课程为微软人工智能教育与共建社区中规划的人工智能相关教程之一，在基础教程模块下，课程编号和名称为 A6-人工智能系统。",
+            "date_modified": "2025-05-01T22:10:00.000Z",
+            "date_published": "2025-05-01T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/ai_system/index",
+            "content_html": "<h1>XJTU AI system Experiments 2025</h1>\n<p>本仓库内容与Microsoft的AI System融合紧密，为其附属作业。这里有基本的作业项目Microsoft AI Syst</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/ai_system/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/ai_system/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/ai_system/index",
+            "title": "2025XJTU AI系统实验",
+            "summary": "本课程的中文名称设定为人工智能系统，主要讲解支持人工智能的计算机系统设计，对应的英文课程名称为 System for AI。本课程中将交替使用以下词汇：人工智能系统，AI-System 和 System for AI。本课程为微软人工智能教育与共建社区中规划的人工智能相关教程之一，在基础教程模块下，课程编号和名称为 A6-人工智能系统。",
+            "date_modified": "2025-04-01T22:10:00.000Z",
+            "date_published": "2025-04-01T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/hello-valaxy",
+            "content_html": "<h2>Valaxy</h2>\n<p>本站基于 <a href=\"https://valaxy.site/\">Valaxy</a> 构建。Valaxy 是一个支持在 Markdown 中直接嵌入 Vue 组件的静态博客框架，使得内容不仅</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/hello-valaxy\" target=\"_blank\">https://github.com/user-xixiboliya/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/hello-valaxy",
+            "title": "Valaxy Markdown组件调用库",
+            "summary": "这篇博文展示了改网站一些在markdown中常用的插件。",
+            "date_modified": "2025-04-01T00:00:00.000Z",
+            "date_published": "2025-04-01T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/daemon/index",
+            "content_html": "<blockquote>\n<p>本文内容有待完善。</p>\n</blockquote>\n<ul>\n<li>daemon，字面上意思为“守护神、恶魔”，通常没有 GUI 界面，是 Unix/Linux 环境的典型产物。具体表现为后台运行、不与终端交互的单个进程，是一种</li>\n</ul>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/daemon/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/daemon/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/daemon/index",
+            "title": "daemon 与 服务",
+            "summary": "《鸟哥linux私房菜部分阅读记录》",
+            "date_modified": "2025-02-20T00:00:00.000Z",
+            "date_published": "2025-02-20T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/proxylab/index",
+            "content_html": "<p>本文的所有配置、指令均以 Ubuntu 环境为例，而且假设你不具有桌面环境，只有纯命令行环境。</p>\n<h1>Pre-start</h1>\n<p>在工作目录下解压<code>proxylab - handout.tar</code>：</p>\n<pre><code class=\"language-ba\"></code></pre>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/proxylab/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/proxylab/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/proxylab/index",
+            "title": "CMU Proxylab",
+            "summary": "CMU深入理解计算机系统的proxylab，搭建预线程化的并发代理服务器，配有cache。",
+            "date_modified": "2025-01-25T22:18:00.000Z",
+            "date_published": "2025-01-25T22:18:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/AI概论/index",
+            "content_html": "<h1>导论部分</h1>\n<p>1956年的达特茅斯会议标志着AI诞生，图灵是人工智能之父[^1-zh]。<br>\n机器智能的本质属性是自然性。<br>\n关于智能疑惑：多元智能理论、智能三元理论(分析、创造、实用)、智能发展</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/AI概论/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/AI概论/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/AI概论/index",
+            "title": "人工智能概论复习笔记",
+            "summary": "2024 XJTU 人工智能概论复习笔记。",
+            "date_modified": "2025-01-24T23:30:00.000Z",
+            "date_published": "2025-01-24T23:30:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index",
+            "content_html": "<h1>经典物理部分</h1>\n<p>本部分不做详尽说明。</p>\n<p>牛顿运动定律+微积分</p>\n<p>速度：$v(t) = \\frac{ {dr(t)}}{ {dt}}$</p>\n<p>加速度：$a(t) = \\frac{ {dv(t)}}{</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/人工智慧与现代物理I/index",
+            "title": "人工智能与现代物理Ⅰ复习笔记",
+            "summary": "2024 XJTU 人工智能与现代物理Ⅰ，第一年开课。",
+            "date_modified": "2025-01-24T22:10:00.000Z",
+            "date_published": "2025-01-24T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/奇怪小技巧/index",
+            "content_html": "<h1>Shields.io徽章制作</h1>\n<p>在浏览 GitHub 时，你可能发现很多项目都有很漂亮的徽章。这些徽章可以用来显示项目版本、进度条、star 数量、fork 数量....，那么这些徽章是如何生成的</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/奇怪小技巧/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/奇怪小技巧/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/奇怪小技巧/index",
+            "title": "一些奇怪小技巧",
+            "summary": "记录一下奇怪的东西。",
+            "date_modified": "2025-01-23T22:10:00.000Z",
+            "date_published": "2025-01-23T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/bomblab/index",
+            "content_html": "<h1>写在前面</h1>\n<p>贴一个下载链接<a href=\"https://csapp.cs.cmu.edu/3e/labs.html\">CS:APP3e, Bryant and O'Hallaron (cmu.edu)</a>，点击</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/bomblab/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/bomblab/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/bomblab/index",
+            "title": "CMU CSAPP bomblab phase1 ~ phase5 解答",
+            "summary": "卡耐基梅隆大学 CSAPP 深入理解计算机系统课后作业lab。",
+            "date_modified": "2025-01-20T00:00:00.000Z",
+            "date_published": "2025-01-20T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/docker/index",
+            "content_html": "<blockquote>\n<p>本文侧重1.讲解docker的插件使用。2.视觉consimulation项目的跨环境迁移</p>\n</blockquote>\n<h1>基础配置</h1>\n<ul>\n<li>安装vscode。</li>\n<li>在vscode安装 Docker 插件与ms-vscode-</li>\n</ul>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/docker/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/docker/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/docker/index",
+            "title": "docker与dev container插件的使用",
+            "summary": "本文侧重1.讲解docker的插件使用。2.robocon视觉consimulation项目的跨环境迁移",
+            "date_modified": "2025-01-20T00:00:00.000Z",
+            "date_published": "2025-01-20T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/对象存储基础/index",
+            "content_html": "<p>存储系统分为四类：</p>\n<ul>\n<li>单机存储 File-system Key-Value</li>\n<li>单机数据库 关系型和非关系型</li>\n<li>分布式存储 分布式文件系统GFS HDFS等 对象存储TOS</li>\n<li>分布式数据库：关系</li>\n</ul>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/对象存储基础/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/对象存储基础/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/对象存储基础/index",
+            "title": "存储系统基础",
+            "summary": "本文涵盖TOS、restful风格等基本认识。",
+            "date_modified": "2025-01-17T00:00:00.000Z",
+            "date_published": "2025-01-17T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/我的2024总结/index",
+            "content_html": "<h1>我的2024总结</h1>\n<p>当敲下‘my 2024 summary’这行标题开始本文的写作时，我正身处z128号列车归乡途中。z128是连接东西的大动脉之一，从西北到东南，从古都到蛮夷之地，从兰州、西安到福</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/我的2024总结/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/我的2024总结/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/我的2024总结/index",
+            "title": "my 2024 summary",
+            "summary": "笔者迟到的2024年终总结。",
+            "date_modified": "2024-12-29T22:10:00.000Z",
+            "date_published": "2024-12-29T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/Doxygen&commit/index",
+            "content_html": "<h1>开始之前</h1>\n<p>首先推荐大家在vscode中下载插件通灵译码或者GitHub copilot，能极大提升效率。<br>\n示例：<br>\n<img src=\"https://github.com/user-xixiboliya/posts/Doxygen&commit/attachment/1.png\" alt=\"\"></p>\n<h1>什么是Doxygen</h1>\n<p>Do</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/Doxygen&commit/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/Doxygen&commit/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/Doxygen&commit/index",
+            "title": "Doxygen 与 commit规范",
+            "summary": "Doxygen 是一种**文档生成工具**，常用于整个项目的Doxyfile的生成，主要用于从源代码中提取注释，并生成技术文档。它广泛用于 C++、C、Java、Python 等多种编程语言中，帮助开发者自动生成文档，从而提高代码的可读性和维护性。",
+            "date_modified": "2024-12-24T18:00:00.000Z",
+            "date_published": "2024-12-24T18:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/置身事内/index",
+            "content_html": "<h1>《置身事内》</h1>\n<blockquote>\n<p>本文作为全书内容的大体回顾会更好一些。</p>\n</blockquote>\n<p>这是一本关于中国政府与经济发展的书，政府不仅参与公共服务，也深刻影响着资源与分配。<br>\n先姑且描述一下各个章节的内容：</p>\n<ul>\n<li>第一章讨论的</li>\n</ul>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/置身事内/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/置身事内/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/置身事内/index",
+            "title": "《置身事内》读后记",
+            "summary": "《置身事内》——一本关于中国政府的书",
+            "date_modified": "2024-12-23T22:10:00.000Z",
+            "date_published": "2024-12-23T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/Datalab/index",
+            "content_html": "<p>这里给出$grad_{x}$和$grad_{y}$的求解:<br>\n<img src=\"https://github.com/user-xixiboliya/posts/Datalab/imgs/5ba35e59614ed6ae5dc3a4cfaac11f40.png\" alt=\"\"><br>\n没得满分是因为在isAsciiDigit</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/Datalab/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/Datalab/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/Datalab/index",
+            "title": "CMU Datalab",
+            "summary": "本人关于CMU Datalab的答案。",
+            "date_modified": "2024-11-22T18:00:00.000Z",
+            "date_published": "2024-11-22T18:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/VPN_tutorial/index",
+            "content_html": "<h2>Ubuntu 22.04 VPN配置教程</h2>\n<hr>\n<p>ubuntu版本不同其实差别不是很大。</p>\n<h4>步骤一：建立clash文件夹并导入安装包</h4>\n<pre><code class=\"language-bash\"></code></pre>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/VPN_tutorial/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/VPN_tutorial/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/VPN_tutorial/index",
+            "title": "Linux/ubuntu VPN教程",
+            "date_modified": "2024-11-14T00:00:00.000Z",
+            "date_published": "2024-11-14T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/ssh&remotessh/index",
+            "content_html": "<h2>ssh简介</h2>\n<p>ssh是一个多义词。</p>\n<ol>\n<li>SSH（Secure Shell，安全外壳）是一种<strong>网络安全协议</strong>。SSH协议通过对网络数据进行加密和验证，在不安全的网络环境中提供</li>\n</ol>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/ssh&remotessh/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/ssh&remotessh/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/ssh&remotessh/index",
+            "title": "ssh与remote ssh的使用",
+            "date_modified": "2024-09-07T00:00:00.000Z",
+            "date_published": "2024-09-07T00:00:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index",
+            "content_html": "<h1>【摘要】</h1>\n<p>斯多葛是古希腊思潮中影响深远的流派，其偏重于建立一种唯理基础的伦理学，对个体因“印象”而产生的“激情”采用内心改观，通过哲学训练参与检视“印象”的恰当性，进而达到“不动心”的稳定状态。</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/斯多葛的具身治疗/index",
+            "title": "具身治疗：斯多葛派“印象”训练",
+            "summary": "斯多葛是古希腊时期的哲学流派，笔者曾经研读过相关书籍，笔者曾因为这一篇文章食宿、往返费用报销地去复旦大学玩了两天。",
+            "date_modified": "2024-06-23T22:10:00.000Z",
+            "date_published": "2024-06-23T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index",
+            "content_html": "<h3>一次最意外的考验</h3>\n<p>“骑行者vs.小鹿”——这是护士递给我的医学报告的标题。在我正为这本书写结尾时，我迎来了一场最终的考验，而这恰是我未曾预演的事情。我先生马歇尔那时正在离家不远的岩溪公园（R</p>\n<br/><p>访问 <a href=\"https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index\" target=\"_blank\">https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index</a> 阅读全文。</p>",
+            "url": "https://github.com/user-xixiboliya/posts/健康的斯多葛主义/index",
+            "title": "一种健康的现代斯多葛主义",
+            "summary": "斯多葛是古希腊时期的哲学流派，笔者曾经研读过相关书籍，这篇文章的加入是为了丰富博客的内容，彰显博文多样性。",
+            "date_modified": "2024-05-23T22:10:00.000Z",
+            "date_published": "2024-05-23T22:10:00.000Z",
+            "author": {
+                "name": " Bertsin",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

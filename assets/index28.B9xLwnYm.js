@@ -1,0 +1,1 @@
+import{J as r}from"./app.4jWjdvhl.js";import"./framework.DzKjdSDt.js";import"./chunks/vue-i18n.BL0vpfZG.js";import"./chunks/dayjs.BdcnXKr1.js";import"./chunks/vue-router.B9NR9R8I.js";import"./chunks/pinia.BVoyrWVf.js";/* empty css                    */import"./chunks/nprogress.DW8bJ2OO.js";const a=r({defaults:{"@type":"PostalAddress"}});export{a as addressResolver};
