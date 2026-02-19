@@ -187,37 +187,40 @@ export default defineValaxyConfig<ThemeUserConfig>({
         link: '/',
       },
       {
-        text: '📂',
-        locale: 'menu.categories',
-        link: '/categories/',
+        text: '📂 博文',
+        locale: 'menu.blogs',
+        link: '/blogs',
       },
       {
-        text: '🏷️',
-        locale: 'menu.tags',
-        link: '/tags/',
+        text: '🏷️ 项目',
+        locale: 'menu.projects',
+        link: '/projects',
       },
       {
-        text: '🎯 清单',
-        items: [
-          {
-            text: '游戏 🎮',
-            link: '/game',
-          },
-          {
-            text: '歌单 🎵',
-            link: '/music',
-          },
-        ],
+        text: '📚 归档',
+        locale: 'menu.archives',
+        link: '/archives',
       },
       {
         text: '📝 留言板',
         link: '/comment',
       },
       {
-        text: '📌',
+        text: '🔗 友链',
+        locale: 'menu.links',
+        link: '/links',
+      },
+      {
+        text: '📌 关于本站',
         locale: 'menu.about',
         link: '/about',
       },
+      {
+        text: '📰 RSS',
+        locale: 'menu.rss',
+        link: '/atom.xml',
+        target: '_blank',
+      }
     ],
     sidebarOptions: {
       position: 'left',

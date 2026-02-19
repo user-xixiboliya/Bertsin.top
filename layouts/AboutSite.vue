@@ -10,7 +10,7 @@ const distributionSites = [
   },
   {
     name: 'Vercel',
-    domain: 'bertsin-blog.vercel.app',
+    domain: 'bertsin.vercel.app',
     url: 'https://bertsin.vercel.app/',
     logo: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><title>Vercel</title><path d="M24 22.525H0l12-21.05 12 21.05z"/></svg>'
   },

@@ -37,6 +37,7 @@ const educationList = [
     title: '西安交通大学',
     description: '人工智能专业，全日制本科',
     date: '2023年9月 - 至今',
+    image: 'https://i.imglt.com/20260215/c4460b8da0b2dc653c3d2984a807c927.png'
   },
 ]
 
