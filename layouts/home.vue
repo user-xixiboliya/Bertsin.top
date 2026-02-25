@@ -84,7 +84,7 @@ const statistics = [
     <div class="flex justify-center">
       <Avatar
         name="Bertsin"
-        avatar-src="https://valaxy-theme-sakura.s3.bitiful.net/wallpaper-2025%2Fwallhaven-yxoejx.jpg"
+        avatar-src="https://i.imglt.com/20260214/c37821a7cc3ad4bf4717c03dfb6ecfce.jpg"
         :links="avatarLinks"
         class="mb-10 mt-10"
       />

@@ -25,7 +25,7 @@ defineProps<{
         :key="index"
         :href="item.href"
         target="_blank"
-        class="not-prose group block relative overflow-hidden rounded-2xl border bg-muted px-15 pt-2 pb-6 transition-all duration-300 hover:border-foreground/25 hover:shadow-sm"
+        class="not-prose group block relative overflow-hidden rounded-2xl border bg-muted px-10 pt-2 pb-6 transition-all duration-300 hover:border-foreground/25 hover:shadow-sm"
       >
         <div class="relative z-10 flex flex-col gap-y-1 pe-28 sm:pe-36 md:pe-44">
           <h3 class="my-0 text-lg font-medium transition-colors group-hover:text-primary">
