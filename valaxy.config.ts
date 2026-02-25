@@ -188,17 +188,14 @@ export default defineValaxyConfig<ThemeUserConfig>({
       },
       {
         text: '📂 博文',
-        locale: 'menu.blogs',
         link: '/blogs',
       },
       {
         text: '🏷️ 项目',
-        locale: 'menu.projects',
         link: '/projects',
       },
       {
         text: '📚 归档',
-        locale: 'menu.archives',
         link: '/archives',
       },
       {
@@ -207,17 +204,14 @@ export default defineValaxyConfig<ThemeUserConfig>({
       },
       {
         text: '🔗 友链',
-        locale: 'menu.links',
         link: '/links',
       },
       {
         text: '📌 关于本站',
-        locale: 'menu.about',
         link: '/about',
       },
       {
         text: '📰 RSS',
-        locale: 'menu.rss',
         link: '/atom.xml',
         target: '_blank',
       }

@@ -16,7 +16,7 @@ cover: https://upload-bbs.miyoushe.com/upload/2025/04/06/289087756/7e2c66f4ddb48
 机器智能的本质属性是自然性。
 关于智能疑惑：多元智能理论、智能三元理论(分析、创造、实用)、智能发展理论
 
-==早期种子== ：
+### 早期种子 ：
 - 逻辑与推理(符号学派)
 	- 自亚里士多德开始，是符号推理，并非所有智能行为都可调和为逻辑熟思，图灵第一次在纯数学的符号逻辑和实体世界间建立了联系。
 	- 图灵测试没有规定问题的范围和提问的标准，计算机能否在智力行为表现得和人无法区分
@@ -24,7 +24,7 @@ cover: https://upload-bbs.miyoushe.com/upload/2025/04/06/289087756/7e2c66f4ddb48
 	- 核心思想——控制、反馈和人机交互
 
 
-==三大学派==
+### 三大学派 ：
 - 符号主义
 	- 观点：认知即计算(知识表达)，物理符号系统假设和有限合理性原理，人类认知和思维的基本单元是符号，认知过程就是符号的一种运算。自上而下
 	- 成果：知识回答，专家系统 、LISP表处理语言
@@ -386,18 +386,17 @@ H代表一般性的结论，S代表所有证据的一部分，可以表示为我
 
 证据充分性的度量 p(H|E)=1。
 
-$$\frac{ {p(H|E)}}{ {P(\neg H|E)}} = \frac{ {p(E|H)}}{ {p(E|\neg H)}}\frac{ {p(H)}}{ {p(\neg H)}},LS = \frac{ {p(E|H)}}{ {p(E|\neg H)}}$$
+$$\frac{ {p(H|E)} }{ {P(\neg H|E)} } = \frac{ {p(E|H)} }{ {p(E|\neg H)} }\frac{ {p(H)} }{ {p(\neg H)} },LS = \frac{ {p(E|H)} }{ {p(E|\neg H)} }$$
 我们考察证据E对H的支撑程度，看等号左边。当LS为正无穷的时候，$P(H|E)$无限大。上式也可以写作：
 $O(H|E)=LS*O(H)$
-$$\frac{ {p(H|\neg E)}}{ {P(\neg H|\neg E)}} = \frac{ {p(\neg E|H)}}{ {p(\neg E|\neg H)}}\frac{ {p(H)}}{ {p(\neg H)}},LN = \frac{ {p(\neg E|H)}}{ {p(\neg E|\neg H)}}$$
+$$\frac{ {p(H|\neg E)} }{ {P(\neg H|\neg E)} } = \frac{ {p(\neg E|H)} }{ {p(\neg E|\neg H)} }\frac{ {p(H)} }{ {p(\neg H)} },LN = \frac{ {p(\neg E|H)} }{ {p(\neg E|\neg H)} }$$
 证据必要性的度量：$O(H|\neg E) = 0$
 
-$LN = \frac{ {O(H|E)}}{ {O(N)}}$,$LN = \frac{ {p(\neg E|H)}}{ {p(\neg E|\neg H)}}$
+$LN = \frac{ {O(H|E)} }{ {O(N)} }$,$LN = \frac{ {p(\neg E|H)} }{ {p(\neg E|\neg H)} }$
 ![](./output_image/69ecee0fdf83c87f958a5272e4787a83.png)
 ![](./output_image/98b6fc6a30c728539e6912955accf862.png)
 ### 杜达公式
 ~~带鱼胆固醇含量高。~~
-
 $p(H|S) = p(H|E)p(E|S) + p(H|\neg E)p(\neg E|S)$
 **(100,0.01)** 代表$LS$为100， $LN$为0.01.
 ![](./output_image/61d94d11e300585fd03e973a7293525a.png)
@@ -409,11 +408,6 @@ $O(H|{E_1},{E_2}) = O(H) \times L{S_1} \times L{S_2}$ 可以这样叠加。
 ==掌握**主观贝叶斯应用——天气预报**==，这玩意有两种计算方法：
 ![](./output_image/863232cc275f5b6802cb23bc4bcadf91.png)
 
-## 知识的不确定性表示：可信度因子(CF)模型
-*可信度因子的定义为信任与不信任的差*
-$CF(H,E)=MB(H,E)-MD(H,E)$   CF(H,E)$\in$$\rm{[ - 1,1]}$
-**MB (measure belief)信任度量：表示证据E对前提结论H的信任增长度
-MD (measure disbelief) 不信任度量：表示证据E对前提结论H的不信任增长度**
 
 ```
 若 CF(H,E)>0，CF(H,E)的值越大，则证据E支持结论H越真 
@@ -433,7 +427,7 @@ $CF(H) = CF(H,E) \times \max \{ 0,CF(E)\}$
 先算出每个证据的可信度 
 ![](./output_image/cd96e8c84217c0880f270770cb5823f0.png)
 $E_1(0.6)$ 这个代表的是证据的权重$w$，$E_6(0.8,0.75)$中，$0.8$是可信度，$0.75$是阈值。
-先算$CF(E_6)$和$CF(E_7)$，再$\frac{ {0.7CF({E_6}) + 0.6CF({E_7})}}{ {(0.7 + 0.3)}}$=$CF({\bar E})$，$CF({\bar E})$与阈值0.6进行比较发现$CF({\bar E})$比0.6大，于是使用$CF({\bar E})$。$R_3$那一句的$CF(R_3)=CF(H,E)$，再使用$CF(\bar E)*CF(H,E)$，得到$CF(H)$。
+先算$CF(E_6)和$$CF(E_7)$，再$\frac{ 	{0.7CF({E_6}) + 0.6CF({E_7})}}{{(0.7 + 0.3)}}$=$CF({\bar E})$，$CF({\bar E})$与阈值0.6进行比较发现$CF({\bar E})$比0.6大，于是使用$CF({\bar E})$。$R_3$那一句的$CF(R_3)=CF(H,E)$，再使用$CF(\bar E)*CF(H,E)$，得到$CF(H)$。
 ![](./output_image/3a2538ad2ff1b27507ccc486224d5b93.png)
 ![](./output_image/37a8f2c1e31523c4b82f640f73f88536.png)
 ## 证据理论

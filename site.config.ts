@@ -2,11 +2,13 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://github.com/user-xixiboliya',
+  mode:'auto',
   lang: 'zh-CN',
   title: 'Bertsin Home',
   author: {
     name: ' Bertsin',
-    avatar: 'https://gravatar.com/avatar/08816a513ec0691873ac3f5883431763',
+    avatar: 'https://i.imglt.com/20260214/c37821a7cc3ad4bf4717c03dfb6ecfce.jpg',
+    intro: 'XJTU Student',
   },
   description: 'Valaxy Theme Sakura1 Preview.',
   social: [
@@ -24,19 +26,19 @@ export default defineSiteConfig({
     },
     {
       name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=247102977',
+      link: 'https://music.163.com/#/user/home?id=1371872444',
       icon: 'i-ri-netease-cloud-music-line',
       color: '#C20C0C',
     },
     {
       name: '知乎',
-      link: 'https://www.zhihu.com/people/yunyoujun/',
+      link: 'https://www.zhihu.com/people/bertsin/',
       icon: 'i-ri-zhihu-line',
       color: '#0084FF',
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: 'https://space.bilibili.com/651491932',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
@@ -46,17 +48,11 @@ export default defineSiteConfig({
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
-    {
-      name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
-      icon: 'i-ri-mail-line',
-      color: '#8E71C1',
-    },
   ],
 
   search: {
     enable: true,
-    provider: 'algolia',
+    provider: 'fuse',
   },
   license: {
     enabled: true,

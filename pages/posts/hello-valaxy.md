@@ -54,4 +54,12 @@ Modify `valaxy.config.ts` to custom your blog[^1-zh] :100:.
 
 </ContentCard>
 
+更新Valaxy:
+```bash
+pnpm add valaxy@latest
+```
 
+更新Sakura主题:
+```bash
+pnpm add valaxy-theme-sakura@latest
+```

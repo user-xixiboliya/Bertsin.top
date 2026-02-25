@@ -106,7 +106,7 @@ const statistics = [
     <Education
       title="Education"
       :education-list="educationList"
-      class="w-full max-w-5xl mx-auto mt-12"
+      class="not-prose w-full max-w-5xl mx-auto mt-12"
   />
     <WebsiteList
       title="Website List"
