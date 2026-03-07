@@ -96,7 +96,7 @@ const statistics = [
       class="w-full max-w-5xl mx-auto">
       <p>学生 / <span class="barbara-text">芭芭拉小姐！</span></p> 
       <p>
-        我是一名来自西安交通大学的人工智能专业的在读生，是 23 级，也是全国机器人竞赛 ROBOCON (简称RC) 的坑友。Feel free to reach out to me via email or GitHub!
+        我是一名来自西安交通大学的人工智能专业的在读生，是 23 级，也是全国机器人竞赛 ROBOCON (简称RC) 的坑友。我目前正在从事具身智能 manipulation 领域的研究。Feel free to reach out to me via email or GitHub!
       </p>
     </AboutMe>
     <Post
