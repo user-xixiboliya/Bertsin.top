@@ -34,7 +34,7 @@ const projects = [
 
 <template>
   <ProjectPage class="Projects">
-    <div class="prose dark:prose-invert max-w-none mx-auto px-4 py-8">
+  <div class="mx-auto w-full px-4 py-8">  
       <div class="max-w-3xl mx-auto">
         <div id="content-header" class="animate mb-8">
           <h1 class="text-2xl font-medium sm:mb-2 sm:text-3xl">
