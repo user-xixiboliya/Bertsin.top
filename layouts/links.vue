@@ -98,6 +98,12 @@ const friendLinks: Link[] = [
     desc: 'Pure trash',
     avatar: 'https://blog-material.electro-dragon.site/my_avatar.png',
     rss: 'https://blog.electro-dragon.site/rss.xml'
+  },
+  {
+    name: 'FrenchPicnic\'s Nothing Life',
+    desc: 'Desc: why not sit down and have a cup of coffee',
+    url: 'https://blog.tiezdne.icu/',
+    avatar: 'https://blog.tiezdne.icu/images/avatar.jpg',
   }
   
 ]
