@@ -101,7 +101,7 @@ const friendLinks: Link[] = [
   },
   {
     name: 'FrenchPicnic\'s Nothing Life',
-    desc: 'Desc: why not sit down and have a cup of coffee',
+    desc: 'why not sit down and have a cup of coffee',
     url: 'https://blog.tiezdne.icu/',
     avatar: 'https://blog.tiezdne.icu/images/avatar.jpg',
   }

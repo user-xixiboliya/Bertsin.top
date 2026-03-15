@@ -28,7 +28,13 @@ const projects = [
     description: 'XJTU ROBOCON文档仓库，包含ROBOCON相关的文档。需科学上网。',
     link: 'https://xjturc.vercel.app/',
     image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop'
-  }
+  },
+  {
+    title: 'Uerebot',
+    description:'Reflexive Obstacle Avoidance Unitree Dog',
+    link: 'https://uerebot-2026.github.io/',
+    image: 'https://i.imglt.com/20260315/5c3c28d680e39348114c07b23b19e4f0.png'
+  } 
 ]
 </script>
 
