@@ -216,18 +216,18 @@ onMounted(() => {
                 :class="copiedItem === 'https://bertsin.top' ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300' : 'bg-muted/30 hover:bg-muted/50'"
                 @click="copyToClipboard('https://bertsin.top', 'https://bertsin.top')"
               >
-                <span v-if="copiedItem === 'https://bertsin.top'">✓ 已复制</span>
+                <span v-if="copiedItem === 'https://bertsin.pages.dev'">✓ 已复制</span>
                 <span v-else>https://bertsin.top</span>
               </samp>
 
               <span class="text-sm font-medium text-muted-foreground text-end">Avatar:</span>
               <samp 
                 class="text-sm font-mono px-2 py-1 rounded-md cursor-pointer transition-all duration-200"
-                :class="copiedItem === 'https://bertsin.top/avatar.png' ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300' : 'bg-muted/30 hover:bg-muted/50'"
-                @click="copyToClipboard('https://bertsin.top/avatar.png', 'https://bertsin.top/avatar.png')"
+                :class="copiedItem === 'https://i.imglt.com/20260214/c37821a7cc3ad4bf4717c03dfb6ecfce.jpg' ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300' : 'bg-muted/30 hover:bg-muted/50'"
+                @click="copyToClipboard('https://i.imglt.com/20260214/c37821a7cc3ad4bf4717c03dfb6ecfce.jpg', 'https://i.imglt.com/20260214/c37821a7cc3ad4bf4717c03dfb6ecfce.jpg')"
               >
-                <span v-if="copiedItem === 'https://bertsin.top/avatar.png'">✓ 已复制</span>
-                <span v-else>https://bertsin.top/avatar.png</span>
+                <span v-if="copiedItem === 'https://i.imglt.com/20260214/c37821a7cc3ad4bf4717c03dfb6ecfce.jpg'">✓ 已复制</span>
+                <span v-else>https://i.imglt.com/20260214/c37821a7cc3ad4bf4717c03dfb6ecfce.jpg</span>
               </samp>
             </div>
           </div>
@@ -280,6 +280,7 @@ onMounted(() => {
                   <div><span class="text-blue-600 dark:text-blue-400">url:</span> <span class="text-gray-600 dark:text-gray-400">#您的网址</span></div>
                   <div><span class="text-blue-600 dark:text-blue-400">desc:</span> <span class="text-gray-600 dark:text-gray-400">#简短描述</span></div>
                   <div><span class="text-blue-600 dark:text-blue-400">image:</span> <span class="text-gray-600 dark:text-gray-400">#一张图片</span></div>
+                  <div><span class="text-blue-600 dark:text-blue-400">rss:</span> <span class="text-gray-600 dark:text-gray-400">#您的 RSS 地址</span></div>
                 </div>
               </div>
               <p class="text-xs text-muted-foreground m-0">
