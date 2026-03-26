@@ -213,11 +213,11 @@ onMounted(() => {
               <span class="text-sm font-medium text-muted-foreground text-end">Link:</span>
               <samp 
                 class="text-sm font-mono px-2 py-1 rounded-md cursor-pointer transition-all duration-200"
-                :class="copiedItem === 'https://bertsin.top' ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300' : 'bg-muted/30 hover:bg-muted/50'"
-                @click="copyToClipboard('https://bertsin.top', 'https://bertsin.top')"
+                :class="copiedItem === 'https://bertsin.pages.dev' ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300' : 'bg-muted/30 hover:bg-muted/50'"
+                @click="copyToClipboard('https://bertsin.pages.dev', 'https://bertsin.pages.dev')"
               >
                 <span v-if="copiedItem === 'https://bertsin.pages.dev'">✓ 已复制</span>
-                <span v-else>https://bertsin.top</span>
+                <span v-else>https://bertsin.pages.dev</span>
               </samp>
 
               <span class="text-sm font-medium text-muted-foreground text-end">Avatar:</span>
