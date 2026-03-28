@@ -261,7 +261,6 @@ onMounted(() => {
           </div>
         </div>
 
-        <!-- 添加留言格式说明 -->
         <div class="space-y-4">
           <div class="flex items-center gap-3">
             <div class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center">

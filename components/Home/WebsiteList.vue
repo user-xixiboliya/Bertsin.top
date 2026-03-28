@@ -35,7 +35,7 @@ defineProps<{
             fetchpriority="auto"
             class="absolute top-0 h-20 w-full object-cover opacity-60 transition-opacity group-hover:opacity-100 dark:opacity-35"
           >
-          <div class="z-10 flex flex-col gap-y-1 px-4 pb-2 pt-16 transition-all"> <!-- 块与块之间的距离 -->
+          <div class="z-10 flex flex-col gap-y-1 px-4 pb-2 pt-16 transition-all">
             <h2 class="text-base font-medium text-gray-800 dark:text-gray-200">
               {{ item.title }}
             </h2>

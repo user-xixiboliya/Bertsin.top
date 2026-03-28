@@ -7,6 +7,7 @@ import { addonWaline } from 'valaxy-addon-waline'
 import { addonHitokoto } from 'valaxy-addon-hitokoto'
 import { addonComponents, ValaxyThemesResolver } from 'valaxy-addon-components'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { addonAlgolia } from 'valaxy-addon-algolia'
 
 export default defineValaxyConfig<ThemeUserConfig>({
   theme: 'sakura',
@@ -234,11 +235,22 @@ export default defineValaxyConfig<ThemeUserConfig>({
     scrollIndicator: true,
     scrollLock: false,
   },
+
+  siteConfig: {
+    comment: {  
+      enable: true
+    },
+  },
   addons: [
     addonWaline({
-      serverURL: 'https://waline.wrxinyue.org',
+      serverURL: 'https://waline-bertsin.vercel.app/',
       pageview: true,
       comment: true,
+    }),
+    addonAlgolia({
+      appId: 'IHBPHEYXDV',
+      apiKey: 'f9d40a1eb499ac258d51e720b33d7dfc',
+      indexName: 'clawer',
     }),
     addonMeting({
       global: true,

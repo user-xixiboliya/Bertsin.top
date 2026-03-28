@@ -17,7 +17,8 @@ import type {
 
 declare module 'vue-router' {
   interface TypesConfig {
-    ParamParsers: never
+    ParamParsers:
+      | never
   }
 }
 
@@ -290,7 +291,7 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy@0.27.0_@babel+parser_058469ec2e1f52a64798a408c5b9857b/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.28.1_@babel+parser_e1710b5653b9b15fba1a61cd71579a94/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -338,7 +339,7 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__425e6f451dbdaa344f05cf9033dffc42/node_modules/valaxy-theme-sakura/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-sakura@0.10.2__7fc4fda54befbc71551984045feeaff4/node_modules/valaxy-theme-sakura/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:

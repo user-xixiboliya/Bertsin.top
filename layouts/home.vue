@@ -19,7 +19,7 @@ const avatarLinks = [
 const websites = [
   {
     href: 'https://xjturc.vercel.app/',
-    imgSrc: 'https://s1.img-e.com/20260213/698f42b8e6f00.png',
+    imgSrc: 'https://i.imglt.com/20260328/1b864f7400bd02d8a6c9d6059e0725c2.png',
     title: 'XJTU ROBOCON tutorial',
     description: 'XJTU ROBOCON 文档教程网站',
   },
@@ -81,6 +81,7 @@ const statistics = [
 <template>
   <!-- <SakuraHomeLayout /> -->
   <div class="prose dark:prose-invert max-w-none mx-auto px-4 py-8">
+    <meta name="algolia-site-verification"  content="F09170902937176A" />
     <div class="flex justify-center">
       <Avatar
         name="Bertsin"

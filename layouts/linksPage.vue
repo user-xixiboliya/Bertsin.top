@@ -9,7 +9,6 @@ const frontmatter = useFrontmatter()
     <RouterView v-slot="{ Component }">
       <component :is="Component">
         <template #main-content>
-          <!-- 新增插槽，用于显示额外内容 -->
           <slot name="info" />
           <SakuraLinks :links="frontmatter.links" :random="frontmatter.random" :error-img="frontmatter.errorImg" />
         </template>
