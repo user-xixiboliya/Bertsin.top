@@ -81,7 +81,6 @@ const statistics = [
 <template>
   <!-- <SakuraHomeLayout /> -->
   <div class="prose dark:prose-invert max-w-none mx-auto px-4 py-8">
-    <meta name="algolia-site-verification"  content="F09170902937176A" />
     <div class="flex justify-center">
       <Avatar
         name="Bertsin"
