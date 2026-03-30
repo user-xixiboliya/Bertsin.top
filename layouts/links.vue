@@ -86,10 +86,10 @@ const friendLinks: Link[] = [
     rss: 'https://www.juniortree.com/rss.xml'
   },
   {
-    name: '开卷空间',
+    name: 'Lumin Space',
     url: 'https://huang2202.github.io/',
-    desc: '一个关于追寻北极星的博客',
-    avatar: 'https://huang2202.github.io/_astro/nova.BRIMhOvw_Z1lgdTW.webp',
+    desc: 'Journey to the North Stars',
+    avatar: 'https://huang2202.github.io/avatar.png',
     rss: 'https://huang2202.github.io/atom.xml'
   },
   {
