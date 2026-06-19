@@ -104,6 +104,18 @@ const friendLinks: Link[] = [
     desc: 'why not sit down and have a cup of coffee',
     url: 'https://blog.tiezdne.icu/',
     avatar: 'https://blog.tiezdne.icu/images/avatar.jpg',
+  },
+  {
+    name: 'DBQDSS\'s Blog',
+    desc: '数院樊振东的生活隙缝',
+    url: 'https://blog.cyaml.top/',
+    avatar: 'https://github.com/DBQDSS/DBQDSS.github.io/blob/master/img/avatar.jpg', 
+  },
+  {
+    name: 'Arthals\' ink',
+    desc: '所见高山远木，阔云流风；所幸岁月盈余，了无拘束',
+    url: 'https://arthals.ink/',
+    avatar: 'https://cdn.arthals.ink/Arthals.png',
   }
   
 ]
