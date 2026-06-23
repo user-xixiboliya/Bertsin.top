@@ -75,7 +75,7 @@ const friendLinks: Link[] = [
     name: 'Gaster',
     url: 'https://github.com/WDGaster703',
     desc: 'HITsz电气大牛，HOA master',
-    avatar: 'https://avatars.githubusercontent.com/u/182055930?v=4',
+    avatar: 'https://wdgaster703.github.io',
     rss: ''
   },
   {
