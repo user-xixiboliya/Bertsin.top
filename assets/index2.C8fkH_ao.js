@@ -1,0 +1,1 @@
+import{H as e}from"./theme.oa1Zdfog.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};

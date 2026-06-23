@@ -1,0 +1,1 @@
+import{H as e}from"./theme.oa1Zdfog.js";var t=e({defaults:{"@type":`PostalAddress`}});export{t as addressResolver};
