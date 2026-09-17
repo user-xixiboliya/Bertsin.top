@@ -116,7 +116,7 @@ const friendLinks: Link[] = [
     desc: '所见高山远木，阔云流风；所幸岁月盈余，了无拘束',
     url: 'https://arthals.ink/',
     avatar: 'https://cdn.arthals.ink/Arthals.png',
-  }
+  },
   {
     name: '魈枫Hub',
     desc: '不筑悬崖之台，只凿深谷之基🐔',
