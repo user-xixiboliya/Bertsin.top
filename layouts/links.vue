@@ -117,6 +117,24 @@ const friendLinks: Link[] = [
     url: 'https://arthals.ink/',
     avatar: 'https://cdn.arthals.ink/Arthals.png',
   }
+  {
+    name: '魈枫Hub',
+    desc: '不筑悬崖之台，只凿深谷之基🐔',
+    url: 'https://xfhub.com',
+    avatar: 'https://xfhub.com/avatar.png',
+  },
+  {
+    name: 'Nian’s Blog',
+    desc: '一念起，万水千山',
+    url: 'https://alannian.top',
+    avatar: 'https://alannian.top/assets/avatar.jpg',
+  },
+  {
+    name: 'Alex’s Blog',
+    desc: '一个技术博客，记录学习过程、项目实践，以及那些让我感兴趣的事物。',
+    url: 'https://ragnote.top/',
+    avatar: 'https://ragnote.top/Avatar.png',
+  },
   
 ]
 
